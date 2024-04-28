@@ -1,0 +1,64 @@
+[4.526s] Invoking command in '/root/dev_ws/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/qr_code_detection:/userdata/dev_ws/install/qr_code_control:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/src/origincar/origincar_description -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/origincar_description
+[4.972s] -- The C compiler identification is GNU 9.3.0
+[5.781s] -- The CXX compiler identification is GNU 9.3.0
+[5.786s] -- Check for working C compiler: /usr/bin/cc
+[6.286s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.295s] -- Detecting C compiler ABI info
+[6.737s] -- Detecting C compiler ABI info - done
+[6.831s] -- Detecting C compile features
+[6.833s] -- Detecting C compile features - done
+[6.852s] -- Check for working CXX compiler: /usr/bin/c++
+[7.330s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.343s] -- Detecting CXX compiler ABI info
+[7.812s] -- Detecting CXX compiler ABI info - done
+[7.902s] -- Detecting CXX compile features
+[7.907s] -- Detecting CXX compile features - done
+[7.925s] -- Found ament_cmake: 0.9.12 (/opt/tros/share/ament_cmake/cmake)
+[8.129s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.135s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.818s] -- Found ament_lint_auto: 0.9.8 (/opt/tros/share/ament_lint_auto/cmake)
+[10.706s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.707s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.708s] -- Added test 'lint_cmake' to check CMake code style
+[10.709s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[10.710s] -- Added test 'xmllint' to check XML markup files
+[10.711s] -- Configuring done
+[10.722s] -- Generating done
+[10.728s] -- Build files have been written to: /root/dev_ws/build/origincar_description
+[10.763s] Invoked command in '/root/dev_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/qr_code_detection:/userdata/dev_ws/install/qr_code_control:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/src/origincar/origincar_description -DCMAKE_INSTALL_PREFIX=/root/dev_ws/install/origincar_description
+[10.767s] Invoking command in '/root/dev_ws/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/qr_code_detection:/userdata/dev_ws/install/qr_code_control:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/build/origincar_description -- -j4 -l4
+[14.234s] Invoked command in '/root/dev_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/qr_code_detection:/userdata/dev_ws/install/qr_code_control:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/build/origincar_description -- -j4 -l4
+[20.594s] Invoking command in '/root/dev_ws/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/qr_code_detection:/userdata/dev_ws/install/qr_code_control:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/build/origincar_description
+[20.639s] -- Install configuration: ""
+[20.640s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/launch
+[20.641s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/launch/gazebo.launch
+[20.643s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/launch/display.launch
+[20.644s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/launch/display.launch.py
+[20.645s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/urdf
+[20.646s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/urdf/origincar.urdf
+[20.647s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/urdf/origincar.xacro
+[20.648s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/rviz
+[20.649s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/rviz/README
+[20.650s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/rviz/display.rviz
+[20.651s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/meshes
+[20.652s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/up_left_Link.STL
+[20.656s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/down_right_Link.STL
+[20.668s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/up_right_Link.STL
+[20.680s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/base_link.STL
+[20.684s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/meshes/down_left_Link.STL
+[20.697s] -- Installing: /root/dev_ws/install/origincar_description/share/ament_index/resource_index/package_run_dependencies/origincar_description
+[20.698s] -- Installing: /root/dev_ws/install/origincar_description/share/ament_index/resource_index/parent_prefix_path/origincar_description
+[20.699s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/environment/ament_prefix_path.sh
+[20.700s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/environment/ament_prefix_path.dsv
+[20.701s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/environment/path.sh
+[20.703s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/environment/path.dsv
+[20.704s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.bash
+[20.705s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.sh
+[20.706s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.zsh
+[20.709s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/local_setup.dsv
+[20.710s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/package.dsv
+[20.711s] -- Installing: /root/dev_ws/install/origincar_description/share/ament_index/resource_index/packages/origincar_description
+[20.712s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig.cmake
+[20.713s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig-version.cmake
+[20.714s] -- Installing: /root/dev_ws/install/origincar_description/share/origincar_description/package.xml
+[25.009s] Invoked command in '/root/dev_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/qr_code_detection:/userdata/dev_ws/install/qr_code_control:/userdata/dev_ws/install/originbot_linefollower:/userdata/dev_ws/install/originbot_demo:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/build/origincar_description

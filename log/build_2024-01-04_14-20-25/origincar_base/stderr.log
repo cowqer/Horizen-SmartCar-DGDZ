@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:39 (find_package):
+  By not providing "Findorigincar_description.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "origincar_description", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "origincar_description" with any of the following names:
+
+    origincar_descriptionConfig.cmake
+    origincar_description-config.cmake
+
+  Add the installation prefix of "origincar_description" to CMAKE_PREFIX_PATH
+  or set "origincar_description_DIR" to a directory containing one of the
+  above files.  If "origincar_description" provides a separate development
+  package or SDK, be sure it has been installed.
+
+

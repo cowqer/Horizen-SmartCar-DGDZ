@@ -1,0 +1,4 @@
+[01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:[m[K In member function ‘[01m[Kvoid origincar_base::Sign_Switch_Callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:106:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksign_switch[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  106 | void origincar_base::Sign_Switch_Callback([01;35m[Kconst std_msgs::msg::Int32::SharedPtr sign_switch[m[K)
+      |                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K

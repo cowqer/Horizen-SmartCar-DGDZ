@@ -1,0 +1,19 @@
+{
+  "package_name": "origincar_base",
+  "output_dir": "/root/dev_ws/build/origincar_base/rosidl_typesupport_introspection_c/origincar_base",
+  "template_dir": "/opt/tros/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/root/dev_ws/build/origincar_base/rosidl_adapter/origincar_base:msg/Position.idl"
+  ],
+  "target_dependencies": [
+    "/opt/tros/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/tros/lib/python3.8/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/tros/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/tros/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/tros/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/tros/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/tros/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/tros/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/root/dev_ws/build/origincar_base/rosidl_adapter/origincar_base/msg/Position.idl"
+  ]
+}

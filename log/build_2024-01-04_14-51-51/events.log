@@ -1,0 +1,840 @@
+[0.000000] (-) TimerEvent: {}
+[0.001793] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.002324] (-) JobUnselected: {'identifier': 'origincar_bringup'}
+[0.003577] (-) JobUnselected: {'identifier': 'origincar_description'}
+[0.004621] (-) JobUnselected: {'identifier': 'origincar_msg'}
+[0.005108] (-) JobUnselected: {'identifier': 'serial'}
+[0.005286] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.005454] (origincar_base) JobQueued: {'identifier': 'origincar_base', 'dependencies': OrderedDict([('ackermann_msgs', '/root/dev_ws/install/ackermann_msgs'), ('origincar_description', '/root/dev_ws/install/origincar_description'), ('origincar_msg', '/root/dev_ws/install/origincar_msg'), ('serial', '/root/dev_ws/install/serial')])}
+[0.005649] (origincar_base) JobStarted: {'identifier': 'origincar_base'}
+[0.099334] (-) TimerEvent: {}
+[0.200273] (-) TimerEvent: {}
+[0.303316] (-) TimerEvent: {}
+[0.404168] (-) TimerEvent: {}
+[0.505793] (-) TimerEvent: {}
+[0.609947] (-) TimerEvent: {}
+[0.714145] (-) TimerEvent: {}
+[0.817966] (-) TimerEvent: {}
+[0.920348] (-) TimerEvent: {}
+[1.024360] (-) TimerEvent: {}
+[1.127831] (-) TimerEvent: {}
+[1.230514] (-) TimerEvent: {}
+[1.238569] (origincar_base) JobProgress: {'identifier': 'origincar_base', 'progress': 'cmake'}
+[1.247605] (origincar_base) JobProgress: {'identifier': 'origincar_base', 'progress': 'build'}
+[1.252949] (origincar_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/build/origincar_base', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/build/origincar_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.168.1.115 51232 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/origincar_base'), ('SSH_CONNECTION', '10.168.1.115 51232 10.168.1.148 22'), ('PYTHONPATH', '/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[1.330787] (-) TimerEvent: {}
+[1.431963] (-) TimerEvent: {}
+[1.532936] (-) TimerEvent: {}
+[1.633919] (-) TimerEvent: {}
+[1.734906] (-) TimerEvent: {}
+[1.825279] (origincar_base) StdoutLine: {'line': b'[  2%] Built target origincar_base__cpp\n'}
+[1.835167] (-) TimerEvent: {}
+[1.840647] (origincar_base) StdoutLine: {'line': b'[ 11%] Built target origincar_base__rosidl_generator_c\n'}
+[1.892301] (origincar_base) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target origincar_base_node\x1b[0m\n'}
+[1.935503] (-) TimerEvent: {}
+[1.962760] (origincar_base) StdoutLine: {'line': b'[ 20%] Built target origincar_base__rosidl_typesupport_cpp\n'}
+[1.966398] (origincar_base) StdoutLine: {'line': b'[ 29%] Built target origincar_base__rosidl_typesupport_introspection_cpp\n'}
+[1.984105] (origincar_base) StdoutLine: {'line': b'[ 38%] Built target origincar_base__rosidl_typesupport_fastrtps_cpp\n'}
+[2.035784] (-) TimerEvent: {}
+[2.089158] (origincar_base) StdoutLine: {'line': b'[ 47%] Built target origincar_base__rosidl_typesupport_c\n'}
+[2.114625] (origincar_base) StdoutLine: {'line': b'[ 55%] Built target origincar_base__rosidl_typesupport_introspection_c\n'}
+[2.125921] (origincar_base) StdoutLine: {'line': b'[ 64%] Built target origincar_base__rosidl_typesupport_fastrtps_c\n'}
+[2.136043] (-) TimerEvent: {}
+[2.154664] (origincar_base) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/origincar_base_node.dir/src/origincar_base.cpp.o\x1b[0m\n'}
+[2.226250] (origincar_base) StdoutLine: {'line': b'[ 67%] Built target origincar_base\n'}
+[2.236275] (-) TimerEvent: {}
+[2.337258] (-) TimerEvent: {}
+[2.345003] (origincar_base) StdoutLine: {'line': b'[ 70%] Built target origincar_base__py\n'}
+[2.437527] (-) TimerEvent: {}
+[2.506393] (origincar_base) StdoutLine: {'line': b'[ 76%] Built target origincar_base__python\n'}
+[2.537815] (-) TimerEvent: {}
+[2.639201] (-) TimerEvent: {}
+[2.698874] (origincar_base) StdoutLine: {'line': b'[ 82%] Built target origincar_base__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.710757] (origincar_base) StdoutLine: {'line': b'[ 88%] Built target origincar_base__rosidl_typesupport_introspection_c__pyext\n'}
+[2.721553] (origincar_base) StdoutLine: {'line': b'[ 94%] Built target origincar_base__rosidl_typesupport_c__pyext\n'}
+[2.739434] (-) TimerEvent: {}
+[2.840484] (-) TimerEvent: {}
+[2.941538] (-) TimerEvent: {}
+[3.042581] (-) TimerEvent: {}
+[3.143584] (-) TimerEvent: {}
+[3.244730] (-) TimerEvent: {}
+[3.345855] (-) TimerEvent: {}
+[3.447106] (-) TimerEvent: {}
+[3.548021] (-) TimerEvent: {}
+[3.648938] (-) TimerEvent: {}
+[3.749896] (-) TimerEvent: {}
+[3.850833] (-) TimerEvent: {}
+[3.951855] (-) TimerEvent: {}
+[4.052884] (-) TimerEvent: {}
+[4.153901] (-) TimerEvent: {}
+[4.255039] (-) TimerEvent: {}
+[4.356054] (-) TimerEvent: {}
+[4.457032] (-) TimerEvent: {}
+[4.558000] (-) TimerEvent: {}
+[4.659001] (-) TimerEvent: {}
+[4.759933] (-) TimerEvent: {}
+[4.860921] (-) TimerEvent: {}
+[4.961914] (-) TimerEvent: {}
+[5.062913] (-) TimerEvent: {}
+[5.163986] (-) TimerEvent: {}
+[5.265000] (-) TimerEvent: {}
+[5.366072] (-) TimerEvent: {}
+[5.467274] (-) TimerEvent: {}
+[5.568475] (-) TimerEvent: {}
+[5.669698] (-) TimerEvent: {}
+[5.770839] (-) TimerEvent: {}
+[5.871876] (-) TimerEvent: {}
+[5.972867] (-) TimerEvent: {}
+[6.073876] (-) TimerEvent: {}
+[6.174875] (-) TimerEvent: {}
+[6.275934] (-) TimerEvent: {}
+[6.376929] (-) TimerEvent: {}
+[6.477939] (-) TimerEvent: {}
+[6.579008] (-) TimerEvent: {}
+[6.680009] (-) TimerEvent: {}
+[6.781012] (-) TimerEvent: {}
+[6.882051] (-) TimerEvent: {}
+[6.983092] (-) TimerEvent: {}
+[7.084083] (-) TimerEvent: {}
+[7.185024] (-) TimerEvent: {}
+[7.286007] (-) TimerEvent: {}
+[7.387056] (-) TimerEvent: {}
+[7.488053] (-) TimerEvent: {}
+[7.589020] (-) TimerEvent: {}
+[7.690003] (-) TimerEvent: {}
+[7.791055] (-) TimerEvent: {}
+[7.892069] (-) TimerEvent: {}
+[7.993091] (-) TimerEvent: {}
+[8.094078] (-) TimerEvent: {}
+[8.195146] (-) TimerEvent: {}
+[8.297862] (-) TimerEvent: {}
+[8.399032] (-) TimerEvent: {}
+[8.500304] (-) TimerEvent: {}
+[8.601420] (-) TimerEvent: {}
+[8.702429] (-) TimerEvent: {}
+[8.803448] (-) TimerEvent: {}
+[8.904407] (-) TimerEvent: {}
+[9.005376] (-) TimerEvent: {}
+[9.106373] (-) TimerEvent: {}
+[9.207464] (-) TimerEvent: {}
+[9.308478] (-) TimerEvent: {}
+[9.409555] (-) TimerEvent: {}
+[9.510599] (-) TimerEvent: {}
+[9.611643] (-) TimerEvent: {}
+[9.712644] (-) TimerEvent: {}
+[9.813641] (-) TimerEvent: {}
+[9.914597] (-) TimerEvent: {}
+[10.015700] (-) TimerEvent: {}
+[10.116679] (-) TimerEvent: {}
+[10.217661] (-) TimerEvent: {}
+[10.318609] (-) TimerEvent: {}
+[10.419706] (-) TimerEvent: {}
+[10.520684] (-) TimerEvent: {}
+[10.621702] (-) TimerEvent: {}
+[10.722711] (-) TimerEvent: {}
+[10.823711] (-) TimerEvent: {}
+[10.924692] (-) TimerEvent: {}
+[11.025685] (-) TimerEvent: {}
+[11.126766] (-) TimerEvent: {}
+[11.227922] (-) TimerEvent: {}
+[11.329041] (-) TimerEvent: {}
+[11.430103] (-) TimerEvent: {}
+[11.531155] (-) TimerEvent: {}
+[11.632131] (-) TimerEvent: {}
+[11.733091] (-) TimerEvent: {}
+[11.834062] (-) TimerEvent: {}
+[11.935123] (-) TimerEvent: {}
+[12.036108] (-) TimerEvent: {}
+[12.137074] (-) TimerEvent: {}
+[12.238091] (-) TimerEvent: {}
+[12.339139] (-) TimerEvent: {}
+[12.440152] (-) TimerEvent: {}
+[12.541118] (-) TimerEvent: {}
+[12.642130] (-) TimerEvent: {}
+[12.743118] (-) TimerEvent: {}
+[12.844115] (-) TimerEvent: {}
+[12.945079] (-) TimerEvent: {}
+[13.046084] (-) TimerEvent: {}
+[13.147089] (-) TimerEvent: {}
+[13.248058] (-) TimerEvent: {}
+[13.349033] (-) TimerEvent: {}
+[13.450060] (-) TimerEvent: {}
+[13.551107] (-) TimerEvent: {}
+[13.652096] (-) TimerEvent: {}
+[13.753034] (-) TimerEvent: {}
+[13.761679] (origincar_base) StderrLine: {'line': b'\x1b[01m\x1b[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid origincar_base::Sign_Switch_Callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.762733] (origincar_base) StderrLine: {'line': b'\x1b[01m\x1b[K/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp:106:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksign_switch\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[13.763662] (origincar_base) StderrLine: {'line': b'  106 | void origincar_base::Sign_Switch_Callback(\x1b[01;35m\x1b[Kconst std_msgs::msg::Int32::SharedPtr sign_switch\x1b[m\x1b[K)\n'}
+[13.764488] (origincar_base) StderrLine: {'line': b'      |                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.853321] (-) TimerEvent: {}
+[13.954483] (-) TimerEvent: {}
+[14.055660] (-) TimerEvent: {}
+[14.156726] (-) TimerEvent: {}
+[14.257766] (-) TimerEvent: {}
+[14.358682] (-) TimerEvent: {}
+[14.459659] (-) TimerEvent: {}
+[14.560625] (-) TimerEvent: {}
+[14.661556] (-) TimerEvent: {}
+[14.762465] (-) TimerEvent: {}
+[14.863442] (-) TimerEvent: {}
+[14.964346] (-) TimerEvent: {}
+[15.065250] (-) TimerEvent: {}
+[15.166227] (-) TimerEvent: {}
+[15.267255] (-) TimerEvent: {}
+[15.368211] (-) TimerEvent: {}
+[15.469246] (-) TimerEvent: {}
+[15.570235] (-) TimerEvent: {}
+[15.671266] (-) TimerEvent: {}
+[15.772281] (-) TimerEvent: {}
+[15.873297] (-) TimerEvent: {}
+[15.974274] (-) TimerEvent: {}
+[16.075299] (-) TimerEvent: {}
+[16.176312] (-) TimerEvent: {}
+[16.277330] (-) TimerEvent: {}
+[16.378328] (-) TimerEvent: {}
+[16.479398] (-) TimerEvent: {}
+[16.580366] (-) TimerEvent: {}
+[16.681377] (-) TimerEvent: {}
+[16.782388] (-) TimerEvent: {}
+[16.883558] (-) TimerEvent: {}
+[16.984597] (-) TimerEvent: {}
+[17.085705] (-) TimerEvent: {}
+[17.186720] (-) TimerEvent: {}
+[17.287780] (-) TimerEvent: {}
+[17.388769] (-) TimerEvent: {}
+[17.489780] (-) TimerEvent: {}
+[17.590809] (-) TimerEvent: {}
+[17.691841] (-) TimerEvent: {}
+[17.792847] (-) TimerEvent: {}
+[17.893839] (-) TimerEvent: {}
+[17.994800] (-) TimerEvent: {}
+[18.095887] (-) TimerEvent: {}
+[18.196892] (-) TimerEvent: {}
+[18.297864] (-) TimerEvent: {}
+[18.398912] (-) TimerEvent: {}
+[18.499965] (-) TimerEvent: {}
+[18.600956] (-) TimerEvent: {}
+[18.701937] (-) TimerEvent: {}
+[18.802933] (-) TimerEvent: {}
+[18.903954] (-) TimerEvent: {}
+[19.004911] (-) TimerEvent: {}
+[19.105899] (-) TimerEvent: {}
+[19.206869] (-) TimerEvent: {}
+[19.307889] (-) TimerEvent: {}
+[19.408906] (-) TimerEvent: {}
+[19.509927] (-) TimerEvent: {}
+[19.611069] (-) TimerEvent: {}
+[19.712190] (-) TimerEvent: {}
+[19.813252] (-) TimerEvent: {}
+[19.914320] (-) TimerEvent: {}
+[20.015371] (-) TimerEvent: {}
+[20.116381] (-) TimerEvent: {}
+[20.217399] (-) TimerEvent: {}
+[20.318401] (-) TimerEvent: {}
+[20.419470] (-) TimerEvent: {}
+[20.520476] (-) TimerEvent: {}
+[20.621457] (-) TimerEvent: {}
+[20.722457] (-) TimerEvent: {}
+[20.823498] (-) TimerEvent: {}
+[20.924474] (-) TimerEvent: {}
+[21.025476] (-) TimerEvent: {}
+[21.126433] (-) TimerEvent: {}
+[21.227475] (-) TimerEvent: {}
+[21.328432] (-) TimerEvent: {}
+[21.429439] (-) TimerEvent: {}
+[21.530405] (-) TimerEvent: {}
+[21.631441] (-) TimerEvent: {}
+[21.732392] (-) TimerEvent: {}
+[21.833386] (-) TimerEvent: {}
+[21.934371] (-) TimerEvent: {}
+[22.035414] (-) TimerEvent: {}
+[22.136390] (-) TimerEvent: {}
+[22.237348] (-) TimerEvent: {}
+[22.338357] (-) TimerEvent: {}
+[22.439421] (-) TimerEvent: {}
+[22.540482] (-) TimerEvent: {}
+[22.641460] (-) TimerEvent: {}
+[22.742527] (-) TimerEvent: {}
+[22.843571] (-) TimerEvent: {}
+[22.944551] (-) TimerEvent: {}
+[23.045540] (-) TimerEvent: {}
+[23.146500] (-) TimerEvent: {}
+[23.247547] (-) TimerEvent: {}
+[23.348536] (-) TimerEvent: {}
+[23.449559] (-) TimerEvent: {}
+[23.550537] (-) TimerEvent: {}
+[23.651609] (-) TimerEvent: {}
+[23.752593] (-) TimerEvent: {}
+[23.853585] (-) TimerEvent: {}
+[23.954558] (-) TimerEvent: {}
+[24.055610] (-) TimerEvent: {}
+[24.156588] (-) TimerEvent: {}
+[24.257569] (-) TimerEvent: {}
+[24.358592] (-) TimerEvent: {}
+[24.459674] (-) TimerEvent: {}
+[24.560634] (-) TimerEvent: {}
+[24.661628] (-) TimerEvent: {}
+[24.762714] (-) TimerEvent: {}
+[24.863792] (-) TimerEvent: {}
+[24.964782] (-) TimerEvent: {}
+[25.065759] (-) TimerEvent: {}
+[25.166770] (-) TimerEvent: {}
+[25.267812] (-) TimerEvent: {}
+[25.368791] (-) TimerEvent: {}
+[25.469786] (-) TimerEvent: {}
+[25.570755] (-) TimerEvent: {}
+[25.671714] (-) TimerEvent: {}
+[25.772627] (-) TimerEvent: {}
+[25.873571] (-) TimerEvent: {}
+[25.974485] (-) TimerEvent: {}
+[26.075458] (-) TimerEvent: {}
+[26.176357] (-) TimerEvent: {}
+[26.277266] (-) TimerEvent: {}
+[26.378211] (-) TimerEvent: {}
+[26.479152] (-) TimerEvent: {}
+[26.580070] (-) TimerEvent: {}
+[26.681000] (-) TimerEvent: {}
+[26.781963] (-) TimerEvent: {}
+[26.882874] (-) TimerEvent: {}
+[26.983851] (-) TimerEvent: {}
+[27.084817] (-) TimerEvent: {}
+[27.185757] (-) TimerEvent: {}
+[27.286716] (-) TimerEvent: {}
+[27.387743] (-) TimerEvent: {}
+[27.488740] (-) TimerEvent: {}
+[27.589748] (-) TimerEvent: {}
+[27.690749] (-) TimerEvent: {}
+[27.791799] (-) TimerEvent: {}
+[27.892815] (-) TimerEvent: {}
+[27.993817] (-) TimerEvent: {}
+[28.094833] (-) TimerEvent: {}
+[28.196054] (-) TimerEvent: {}
+[28.297299] (-) TimerEvent: {}
+[28.398386] (-) TimerEvent: {}
+[28.499435] (-) TimerEvent: {}
+[28.600445] (-) TimerEvent: {}
+[28.701443] (-) TimerEvent: {}
+[28.802445] (-) TimerEvent: {}
+[28.903491] (-) TimerEvent: {}
+[29.004473] (-) TimerEvent: {}
+[29.105511] (-) TimerEvent: {}
+[29.206472] (-) TimerEvent: {}
+[29.307519] (-) TimerEvent: {}
+[29.408428] (-) TimerEvent: {}
+[29.509364] (-) TimerEvent: {}
+[29.610318] (-) TimerEvent: {}
+[29.711345] (-) TimerEvent: {}
+[29.812356] (-) TimerEvent: {}
+[29.913295] (-) TimerEvent: {}
+[30.014290] (-) TimerEvent: {}
+[30.115325] (-) TimerEvent: {}
+[30.216313] (-) TimerEvent: {}
+[30.317310] (-) TimerEvent: {}
+[30.418339] (-) TimerEvent: {}
+[30.519380] (-) TimerEvent: {}
+[30.620386] (-) TimerEvent: {}
+[30.721411] (-) TimerEvent: {}
+[30.822436] (-) TimerEvent: {}
+[30.923432] (-) TimerEvent: {}
+[31.024489] (-) TimerEvent: {}
+[31.125615] (-) TimerEvent: {}
+[31.226748] (-) TimerEvent: {}
+[31.327803] (-) TimerEvent: {}
+[31.428882] (-) TimerEvent: {}
+[31.529931] (-) TimerEvent: {}
+[31.630872] (-) TimerEvent: {}
+[31.731867] (-) TimerEvent: {}
+[31.832829] (-) TimerEvent: {}
+[31.933819] (-) TimerEvent: {}
+[32.034822] (-) TimerEvent: {}
+[32.135852] (-) TimerEvent: {}
+[32.236842] (-) TimerEvent: {}
+[32.337811] (-) TimerEvent: {}
+[32.438794] (-) TimerEvent: {}
+[32.539809] (-) TimerEvent: {}
+[32.640756] (-) TimerEvent: {}
+[32.741721] (-) TimerEvent: {}
+[32.842673] (-) TimerEvent: {}
+[32.943671] (-) TimerEvent: {}
+[33.044641] (-) TimerEvent: {}
+[33.145597] (-) TimerEvent: {}
+[33.246552] (-) TimerEvent: {}
+[33.347592] (-) TimerEvent: {}
+[33.448539] (-) TimerEvent: {}
+[33.549544] (-) TimerEvent: {}
+[33.650504] (-) TimerEvent: {}
+[33.751578] (-) TimerEvent: {}
+[33.852664] (-) TimerEvent: {}
+[33.953735] (-) TimerEvent: {}
+[34.054846] (-) TimerEvent: {}
+[34.155956] (-) TimerEvent: {}
+[34.256966] (-) TimerEvent: {}
+[34.357975] (-) TimerEvent: {}
+[34.459053] (-) TimerEvent: {}
+[34.560074] (-) TimerEvent: {}
+[34.661049] (-) TimerEvent: {}
+[34.762058] (-) TimerEvent: {}
+[34.863108] (-) TimerEvent: {}
+[34.964116] (-) TimerEvent: {}
+[35.065110] (-) TimerEvent: {}
+[35.166131] (-) TimerEvent: {}
+[35.267150] (-) TimerEvent: {}
+[35.368075] (-) TimerEvent: {}
+[35.469124] (-) TimerEvent: {}
+[35.570095] (-) TimerEvent: {}
+[35.671130] (-) TimerEvent: {}
+[35.772109] (-) TimerEvent: {}
+[35.873103] (-) TimerEvent: {}
+[35.974099] (-) TimerEvent: {}
+[36.075148] (-) TimerEvent: {}
+[36.176143] (-) TimerEvent: {}
+[36.277159] (-) TimerEvent: {}
+[36.378150] (-) TimerEvent: {}
+[36.479133] (-) TimerEvent: {}
+[36.580130] (-) TimerEvent: {}
+[36.681223] (-) TimerEvent: {}
+[36.782342] (-) TimerEvent: {}
+[36.883517] (-) TimerEvent: {}
+[36.984553] (-) TimerEvent: {}
+[37.085546] (-) TimerEvent: {}
+[37.186518] (-) TimerEvent: {}
+[37.287526] (-) TimerEvent: {}
+[37.388519] (-) TimerEvent: {}
+[37.489541] (-) TimerEvent: {}
+[37.590583] (-) TimerEvent: {}
+[37.691621] (-) TimerEvent: {}
+[37.792621] (-) TimerEvent: {}
+[37.893599] (-) TimerEvent: {}
+[37.994588] (-) TimerEvent: {}
+[38.095633] (-) TimerEvent: {}
+[38.196659] (-) TimerEvent: {}
+[38.297681] (-) TimerEvent: {}
+[38.398674] (-) TimerEvent: {}
+[38.499733] (-) TimerEvent: {}
+[38.600739] (-) TimerEvent: {}
+[38.701713] (-) TimerEvent: {}
+[38.802703] (-) TimerEvent: {}
+[38.903743] (-) TimerEvent: {}
+[39.004718] (-) TimerEvent: {}
+[39.105717] (-) TimerEvent: {}
+[39.206787] (-) TimerEvent: {}
+[39.307848] (-) TimerEvent: {}
+[39.408874] (-) TimerEvent: {}
+[39.510002] (-) TimerEvent: {}
+[39.611222] (-) TimerEvent: {}
+[39.712333] (-) TimerEvent: {}
+[39.813319] (-) TimerEvent: {}
+[39.914446] (-) TimerEvent: {}
+[40.015482] (-) TimerEvent: {}
+[40.116447] (-) TimerEvent: {}
+[40.217433] (-) TimerEvent: {}
+[40.318377] (-) TimerEvent: {}
+[40.419456] (-) TimerEvent: {}
+[40.520456] (-) TimerEvent: {}
+[40.621481] (-) TimerEvent: {}
+[40.722502] (-) TimerEvent: {}
+[40.823572] (-) TimerEvent: {}
+[40.924558] (-) TimerEvent: {}
+[41.025586] (-) TimerEvent: {}
+[41.126572] (-) TimerEvent: {}
+[41.227649] (-) TimerEvent: {}
+[41.328637] (-) TimerEvent: {}
+[41.429667] (-) TimerEvent: {}
+[41.530672] (-) TimerEvent: {}
+[41.631659] (-) TimerEvent: {}
+[41.732641] (-) TimerEvent: {}
+[41.833673] (-) TimerEvent: {}
+[41.934646] (-) TimerEvent: {}
+[42.035711] (-) TimerEvent: {}
+[42.136696] (-) TimerEvent: {}
+[42.237690] (-) TimerEvent: {}
+[42.338816] (-) TimerEvent: {}
+[42.440245] (-) TimerEvent: {}
+[42.541351] (-) TimerEvent: {}
+[42.642336] (-) TimerEvent: {}
+[42.743314] (-) TimerEvent: {}
+[42.844314] (-) TimerEvent: {}
+[42.945320] (-) TimerEvent: {}
+[43.046339] (-) TimerEvent: {}
+[43.147388] (-) TimerEvent: {}
+[43.248384] (-) TimerEvent: {}
+[43.349349] (-) TimerEvent: {}
+[43.450368] (-) TimerEvent: {}
+[43.551359] (-) TimerEvent: {}
+[43.652344] (-) TimerEvent: {}
+[43.753318] (-) TimerEvent: {}
+[43.854312] (-) TimerEvent: {}
+[43.955366] (-) TimerEvent: {}
+[44.056370] (-) TimerEvent: {}
+[44.157340] (-) TimerEvent: {}
+[44.258297] (-) TimerEvent: {}
+[44.359327] (-) TimerEvent: {}
+[44.460395] (-) TimerEvent: {}
+[44.561445] (-) TimerEvent: {}
+[44.662409] (-) TimerEvent: {}
+[44.763444] (-) TimerEvent: {}
+[44.864406] (-) TimerEvent: {}
+[44.965405] (-) TimerEvent: {}
+[45.066446] (-) TimerEvent: {}
+[45.167686] (-) TimerEvent: {}
+[45.268815] (-) TimerEvent: {}
+[45.370095] (-) TimerEvent: {}
+[45.471272] (-) TimerEvent: {}
+[45.572272] (-) TimerEvent: {}
+[45.673268] (-) TimerEvent: {}
+[45.774254] (-) TimerEvent: {}
+[45.875270] (-) TimerEvent: {}
+[45.976257] (-) TimerEvent: {}
+[46.077208] (-) TimerEvent: {}
+[46.178171] (-) TimerEvent: {}
+[46.279238] (-) TimerEvent: {}
+[46.380207] (-) TimerEvent: {}
+[46.481216] (-) TimerEvent: {}
+[46.582187] (-) TimerEvent: {}
+[46.683240] (-) TimerEvent: {}
+[46.784252] (-) TimerEvent: {}
+[46.885236] (-) TimerEvent: {}
+[46.986219] (-) TimerEvent: {}
+[47.087245] (-) TimerEvent: {}
+[47.188210] (-) TimerEvent: {}
+[47.289174] (-) TimerEvent: {}
+[47.390188] (-) TimerEvent: {}
+[47.491250] (-) TimerEvent: {}
+[47.592277] (-) TimerEvent: {}
+[47.693302] (-) TimerEvent: {}
+[47.794314] (-) TimerEvent: {}
+[47.895373] (-) TimerEvent: {}
+[47.996943] (-) TimerEvent: {}
+[48.098035] (-) TimerEvent: {}
+[48.199339] (-) TimerEvent: {}
+[48.300593] (-) TimerEvent: {}
+[48.401598] (-) TimerEvent: {}
+[48.502573] (-) TimerEvent: {}
+[48.603656] (-) TimerEvent: {}
+[48.704654] (-) TimerEvent: {}
+[48.805627] (-) TimerEvent: {}
+[48.906604] (-) TimerEvent: {}
+[49.007700] (-) TimerEvent: {}
+[49.108710] (-) TimerEvent: {}
+[49.209672] (-) TimerEvent: {}
+[49.310641] (-) TimerEvent: {}
+[49.411671] (-) TimerEvent: {}
+[49.512676] (-) TimerEvent: {}
+[49.613674] (-) TimerEvent: {}
+[49.714677] (-) TimerEvent: {}
+[49.815690] (-) TimerEvent: {}
+[49.916703] (-) TimerEvent: {}
+[50.017716] (-) TimerEvent: {}
+[50.118681] (-) TimerEvent: {}
+[50.219730] (-) TimerEvent: {}
+[50.320737] (-) TimerEvent: {}
+[50.421722] (-) TimerEvent: {}
+[50.522754] (-) TimerEvent: {}
+[50.623844] (-) TimerEvent: {}
+[50.724820] (-) TimerEvent: {}
+[50.825957] (-) TimerEvent: {}
+[50.927195] (-) TimerEvent: {}
+[51.028347] (-) TimerEvent: {}
+[51.129479] (-) TimerEvent: {}
+[51.230496] (-) TimerEvent: {}
+[51.331464] (-) TimerEvent: {}
+[51.432481] (-) TimerEvent: {}
+[51.533501] (-) TimerEvent: {}
+[51.634517] (-) TimerEvent: {}
+[51.735578] (-) TimerEvent: {}
+[51.836592] (-) TimerEvent: {}
+[51.937565] (-) TimerEvent: {}
+[52.038552] (-) TimerEvent: {}
+[52.139594] (-) TimerEvent: {}
+[52.240584] (-) TimerEvent: {}
+[52.341573] (-) TimerEvent: {}
+[52.442600] (-) TimerEvent: {}
+[52.543606] (-) TimerEvent: {}
+[52.644564] (-) TimerEvent: {}
+[52.745524] (-) TimerEvent: {}
+[52.846496] (-) TimerEvent: {}
+[52.947553] (-) TimerEvent: {}
+[53.048646] (-) TimerEvent: {}
+[53.149641] (-) TimerEvent: {}
+[53.250539] (-) TimerEvent: {}
+[53.351427] (-) TimerEvent: {}
+[53.452318] (-) TimerEvent: {}
+[53.553373] (-) TimerEvent: {}
+[53.654373] (-) TimerEvent: {}
+[53.755542] (-) TimerEvent: {}
+[53.856697] (-) TimerEvent: {}
+[53.957873] (-) TimerEvent: {}
+[54.058842] (-) TimerEvent: {}
+[54.159808] (-) TimerEvent: {}
+[54.260753] (-) TimerEvent: {}
+[54.361731] (-) TimerEvent: {}
+[54.462717] (-) TimerEvent: {}
+[54.563763] (-) TimerEvent: {}
+[54.664752] (-) TimerEvent: {}
+[54.765735] (-) TimerEvent: {}
+[54.866677] (-) TimerEvent: {}
+[54.967809] (-) TimerEvent: {}
+[55.068830] (-) TimerEvent: {}
+[55.169819] (-) TimerEvent: {}
+[55.270799] (-) TimerEvent: {}
+[55.371818] (-) TimerEvent: {}
+[55.472760] (-) TimerEvent: {}
+[55.573707] (-) TimerEvent: {}
+[55.674662] (-) TimerEvent: {}
+[55.775700] (-) TimerEvent: {}
+[55.876656] (-) TimerEvent: {}
+[55.977637] (-) TimerEvent: {}
+[56.078646] (-) TimerEvent: {}
+[56.179664] (-) TimerEvent: {}
+[56.280634] (-) TimerEvent: {}
+[56.381670] (-) TimerEvent: {}
+[56.482799] (-) TimerEvent: {}
+[56.584048] (-) TimerEvent: {}
+[56.685177] (-) TimerEvent: {}
+[56.786152] (-) TimerEvent: {}
+[56.887152] (-) TimerEvent: {}
+[56.988111] (-) TimerEvent: {}
+[57.089082] (-) TimerEvent: {}
+[57.190073] (-) TimerEvent: {}
+[57.291077] (-) TimerEvent: {}
+[57.392087] (-) TimerEvent: {}
+[57.493147] (-) TimerEvent: {}
+[57.594107] (-) TimerEvent: {}
+[57.695081] (-) TimerEvent: {}
+[57.795979] (-) TimerEvent: {}
+[57.896885] (-) TimerEvent: {}
+[57.997850] (-) TimerEvent: {}
+[58.098865] (-) TimerEvent: {}
+[58.199920] (-) TimerEvent: {}
+[58.301032] (-) TimerEvent: {}
+[58.401999] (-) TimerEvent: {}
+[58.503020] (-) TimerEvent: {}
+[58.604034] (-) TimerEvent: {}
+[58.646726] (origincar_base) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable origincar_base_node\x1b[0m\n'}
+[58.704265] (-) TimerEvent: {}
+[58.805213] (-) TimerEvent: {}
+[58.906272] (-) TimerEvent: {}
+[59.007448] (-) TimerEvent: {}
+[59.108718] (-) TimerEvent: {}
+[59.209960] (-) TimerEvent: {}
+[59.311394] (-) TimerEvent: {}
+[59.412745] (-) TimerEvent: {}
+[59.513890] (-) TimerEvent: {}
+[59.615158] (-) TimerEvent: {}
+[59.716327] (-) TimerEvent: {}
+[59.817440] (-) TimerEvent: {}
+[59.918520] (-) TimerEvent: {}
+[60.019833] (-) TimerEvent: {}
+[60.121003] (-) TimerEvent: {}
+[60.221963] (-) TimerEvent: {}
+[60.323187] (-) TimerEvent: {}
+[60.424450] (-) TimerEvent: {}
+[60.525631] (-) TimerEvent: {}
+[60.626895] (-) TimerEvent: {}
+[60.728079] (-) TimerEvent: {}
+[60.829121] (-) TimerEvent: {}
+[60.930344] (-) TimerEvent: {}
+[61.031373] (-) TimerEvent: {}
+[61.132546] (-) TimerEvent: {}
+[61.233746] (-) TimerEvent: {}
+[61.334709] (-) TimerEvent: {}
+[61.435918] (-) TimerEvent: {}
+[61.537112] (-) TimerEvent: {}
+[61.638370] (-) TimerEvent: {}
+[61.739562] (-) TimerEvent: {}
+[61.840759] (-) TimerEvent: {}
+[61.941773] (-) TimerEvent: {}
+[62.043037] (-) TimerEvent: {}
+[62.144299] (-) TimerEvent: {}
+[62.245511] (-) TimerEvent: {}
+[62.346775] (-) TimerEvent: {}
+[62.448598] (-) TimerEvent: {}
+[62.549681] (-) TimerEvent: {}
+[62.650715] (-) TimerEvent: {}
+[62.751848] (-) TimerEvent: {}
+[62.852877] (-) TimerEvent: {}
+[62.954067] (-) TimerEvent: {}
+[63.055389] (-) TimerEvent: {}
+[63.156596] (-) TimerEvent: {}
+[63.257860] (-) TimerEvent: {}
+[63.359038] (-) TimerEvent: {}
+[63.460159] (-) TimerEvent: {}
+[63.561233] (-) TimerEvent: {}
+[63.662171] (-) TimerEvent: {}
+[63.763064] (-) TimerEvent: {}
+[63.863912] (-) TimerEvent: {}
+[63.964773] (-) TimerEvent: {}
+[64.065608] (-) TimerEvent: {}
+[64.166473] (-) TimerEvent: {}
+[64.267395] (-) TimerEvent: {}
+[64.368244] (-) TimerEvent: {}
+[64.469136] (-) TimerEvent: {}
+[64.570070] (-) TimerEvent: {}
+[64.670985] (-) TimerEvent: {}
+[64.771889] (-) TimerEvent: {}
+[64.872867] (-) TimerEvent: {}
+[64.973798] (-) TimerEvent: {}
+[65.074875] (-) TimerEvent: {}
+[65.176005] (-) TimerEvent: {}
+[65.277000] (-) TimerEvent: {}
+[65.377969] (-) TimerEvent: {}
+[65.436552] (origincar_base) StdoutLine: {'line': b'[100%] Built target origincar_base_node\n'}
+[65.478196] (-) TimerEvent: {}
+[65.491695] (origincar_base) CommandEnded: {'returncode': 0}
+[65.578460] (-) TimerEvent: {}
+[65.676637] (origincar_base) JobProgress: {'identifier': 'origincar_base', 'progress': 'install'}
+[65.681081] (-) TimerEvent: {}
+[65.728280] (origincar_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/build/origincar_base'], 'cwd': '/root/dev_ws/build/origincar_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '10.168.1.115 51232 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/dev_ws/install/serial/lib:/root/dev_ws/install/origincar_msg/lib:/root/dev_ws/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/build/origincar_base'), ('SSH_CONNECTION', '10.168.1.115 51232 10.168.1.148 22'), ('PYTHONPATH', '/root/dev_ws/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/install/serial:/root/dev_ws/install/origincar_msg:/root/dev_ws/install/origincar_description:/root/dev_ws/install/ackermann_msgs:/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[65.780804] (origincar_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[65.781743] (-) TimerEvent: {}
+[65.783265] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/ament_index/resource_index/rosidl_interfaces/origincar_base\n'}
+[65.784338] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base\n'}
+[65.785423] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg\n'}
+[65.786622] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/rosidl_generator_c__visibility_control.h\n'}
+[65.787530] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/position.h\n'}
+[65.788591] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail\n'}
+[65.789366] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__type_support.h\n'}
+[65.790116] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__struct.h\n'}
+[65.791081] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__functions.c\n'}
+[65.791901] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__functions.h\n'}
+[65.793135] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/library_path.sh\n'}
+[65.793902] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/library_path.dsv\n'}
+[65.794763] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_generator_c.so\n'}
+[65.795604] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base\n'}
+[65.796879] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg\n'}
+[65.797627] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[65.798354] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail\n'}
+[65.799315] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_fastrtps_c.h\n'}
+[65.800591] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_fastrtps_c.so\n'}
+[65.801400] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base\n'}
+[65.802135] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg\n'}
+[65.803084] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[65.803895] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail\n'}
+[65.804634] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[65.805602] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/dds_fastrtps\n'}
+[65.806733] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_fastrtps_cpp.so\n'}
+[65.808128] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base\n'}
+[65.809185] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg\n'}
+[65.809916] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[65.810797] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail\n'}
+[65.811690] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__type_support.c\n'}
+[65.812552] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_introspection_c.h\n'}
+[65.813463] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_introspection_c.so\n'}
+[65.814254] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_c.so\n'}
+[65.815431] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base\n'}
+[65.816286] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg\n'}
+[65.817258] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[65.818018] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail\n'}
+[65.818789] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__type_support.hpp\n'}
+[65.819668] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__struct.hpp\n'}
+[65.820436] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__traits.hpp\n'}
+[65.821237] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__builder.hpp\n'}
+[65.822016] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/position.hpp\n'}
+[65.822775] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base\n'}
+[65.823636] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg\n'}
+[65.824415] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail\n'}
+[65.825157] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[65.825961] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/include/origincar_base/msg/detail/position__type_support.cpp\n'}
+[65.826780] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_introspection_cpp.so\n'}
+[65.827693] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_cpp.so\n'}
+[65.828453] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/pythonpath.sh\n'}
+[65.829193] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/pythonpath.dsv\n'}
+[65.829975] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/__init__.py\n'}
+[65.881945] (-) TimerEvent: {}
+[65.982862] (-) TimerEvent: {}
+[66.050908] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg\n'}
+[66.052172] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg/__init__.py\n'}
+[66.052857] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg/_position.py\n'}
+[66.053584] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg/_position_s.c\n'}
+[66.054521] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[66.058466] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[66.062134] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[66.065070] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/liborigincar_base__python.so\n'}
+[66.066614] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/msg/Position.idl\n'}
+[66.067825] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/msg/Position.msg\n'}
+[66.068785] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/lib/origincar_base/cmd_vel_to_ackermann_drive.py\n'}
+[66.071254] (origincar_base) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/origincar_base/lib/origincar_base/origincar_base_node\n'}
+[66.083202] (-) TimerEvent: {}
+[66.092721] (origincar_base) StdoutLine: {'line': b'-- Set runtime path of "/root/dev_ws/install/origincar_base/lib/origincar_base/origincar_base_node" to ""\n'}
+[66.093755] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch\n'}
+[66.094664] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/__pycache__\n'}
+[66.095944] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/__pycache__/testtwo.launch.cpython-38.pyc\n'}
+[66.097126] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/ekf.launch.py\n'}
+[66.098136] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/base_serial.launch.py\n'}
+[66.099205] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/origincar_bringup.launch.py\n'}
+[66.100319] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/launch/robot_mode_description.launch.py\n'}
+[66.101575] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/config\n'}
+[66.102735] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/config/imu.yaml\n'}
+[66.103675] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/config/ekf.yaml\n'}
+[66.104642] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/ament_index/resource_index/package_run_dependencies/origincar_base\n'}
+[66.105506] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/ament_index/resource_index/parent_prefix_path/origincar_base\n'}
+[66.106319] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/ament_prefix_path.sh\n'}
+[66.107185] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/ament_prefix_path.dsv\n'}
+[66.108040] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/path.sh\n'}
+[66.109134] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/environment/path.dsv\n'}
+[66.109960] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/local_setup.bash\n'}
+[66.110992] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/local_setup.sh\n'}
+[66.112020] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/local_setup.zsh\n'}
+[66.112845] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/local_setup.dsv\n'}
+[66.113934] (origincar_base) StdoutLine: {'line': b'-- Installing: /root/dev_ws/install/origincar_base/share/origincar_base/package.dsv\n'}
+[66.114784] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/ament_index/resource_index/packages/origincar_base\n'}
+[66.115820] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_generator_cExport.cmake\n'}
+[66.116679] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_generator_cExport-noconfig.cmake\n'}
+[66.117464] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cExport.cmake\n'}
+[66.118556] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[66.119493] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cExport.cmake\n'}
+[66.120605] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[66.121688] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_generator_cppExport.cmake\n'}
+[66.122875] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[66.124188] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[66.125189] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cppExport.cmake\n'}
+[66.125965] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[66.127296] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/rosidl_cmake-extras.cmake\n'}
+[66.128237] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[66.128947] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[66.129609] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[66.130270] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[66.131144] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[66.132535] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[66.134519] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_baseConfig.cmake\n'}
+[66.137213] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/cmake/origincar_baseConfig-version.cmake\n'}
+[66.137946] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/install/origincar_base/share/origincar_base/package.xml\n'}
+[66.138543] (origincar_base) CommandEnded: {'returncode': 0}
+[66.183404] (-) TimerEvent: {}
+[66.287757] (-) TimerEvent: {}
+[66.391837] (-) TimerEvent: {}
+[66.494573] (-) TimerEvent: {}
+[66.597401] (-) TimerEvent: {}
+[66.701353] (-) TimerEvent: {}
+[66.805864] (-) TimerEvent: {}
+[66.908927] (-) TimerEvent: {}
+[67.010698] (-) TimerEvent: {}
+[67.114262] (-) TimerEvent: {}
+[67.215792] (-) TimerEvent: {}
+[67.319877] (-) TimerEvent: {}
+[67.422343] (-) TimerEvent: {}
+[67.524893] (-) TimerEvent: {}
+[67.628642] (-) TimerEvent: {}
+[67.729755] (-) TimerEvent: {}
+[67.830888] (-) TimerEvent: {}
+[67.935099] (-) TimerEvent: {}
+[68.041040] (-) TimerEvent: {}
+[68.150588] (-) TimerEvent: {}
+[68.254188] (-) TimerEvent: {}
+[68.357521] (-) TimerEvent: {}
+[68.463405] (-) TimerEvent: {}
+[68.564673] (-) TimerEvent: {}
+[68.668801] (-) TimerEvent: {}
+[68.775042] (-) TimerEvent: {}
+[68.881711] (-) TimerEvent: {}
+[68.985514] (-) TimerEvent: {}
+[69.087293] (-) TimerEvent: {}
+[69.192688] (-) TimerEvent: {}
+[69.295320] (-) TimerEvent: {}
+[69.396302] (-) TimerEvent: {}
+[69.499981] (-) TimerEvent: {}
+[69.602997] (-) TimerEvent: {}
+[69.705385] (-) TimerEvent: {}
+[69.808596] (-) TimerEvent: {}
+[69.815378] (origincar_base) JobEnded: {'identifier': 'origincar_base', 'rc': 0}
+[69.821163] (-) EventReactorShutdown: {}

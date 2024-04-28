@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../../build/tf2_tools/tf2_tools.egg-info
+writing ../../../../build/tf2_tools/tf2_tools.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/tf2_tools/tf2_tools.egg-info/dependency_links.txt
+writing entry points to ../../../../build/tf2_tools/tf2_tools.egg-info/entry_points.txt
+writing requirements to ../../../../build/tf2_tools/tf2_tools.egg-info/requires.txt
+writing top-level names to ../../../../build/tf2_tools/tf2_tools.egg-info/top_level.txt
+writing manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/dev_ws/build/tf2_tools/build
+creating /root/dev_ws/build/tf2_tools/build/lib
+creating /root/dev_ws/build/tf2_tools/build/lib/tf2_tools
+copying tf2_tools/view_frames.py -> /root/dev_ws/build/tf2_tools/build/lib/tf2_tools
+copying tf2_tools/__init__.py -> /root/dev_ws/build/tf2_tools/build/lib/tf2_tools
+running install
+running install_lib
+creating /root/dev_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools
+copying /root/dev_ws/build/tf2_tools/build/lib/tf2_tools/view_frames.py -> /root/dev_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools
+copying /root/dev_ws/build/tf2_tools/build/lib/tf2_tools/__init__.py -> /root/dev_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools
+byte-compiling /root/dev_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools/view_frames.py to view_frames.cpython-38.pyc
+byte-compiling /root/dev_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /root/dev_ws/install/tf2_tools/share/ament_index
+creating /root/dev_ws/install/tf2_tools/share/ament_index/resource_index
+creating /root/dev_ws/install/tf2_tools/share/ament_index/resource_index/packages
+copying resource/tf2_tools -> /root/dev_ws/install/tf2_tools/share/ament_index/resource_index/packages
+copying package.xml -> /root/dev_ws/install/tf2_tools/share/tf2_tools
+running install_egg_info
+Copying ../../../../build/tf2_tools/tf2_tools.egg-info to /root/dev_ws/install/tf2_tools/lib/python3.8/site-packages/tf2_tools-0.17.1-py3.8.egg-info
+running install_scripts
+Installing view_frames script to /root/dev_ws/install/tf2_tools/lib/tf2_tools
+writing list of installed files to '/root/dev_ws/build/tf2_tools/install.log'
