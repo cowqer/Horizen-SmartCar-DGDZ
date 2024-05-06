@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/dev_ws/src/origincar/origincar_msg
+CMAKE_SOURCE_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_msg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/dev_ws/build/origincar_msg
+CMAKE_BINARY_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg
 
 # Utility rule file for origincar_msg__cpp.
 
@@ -119,8 +119,8 @@ rosidl_generator_cpp/origincar_msg/msg/data.hpp: /opt/tros/share/std_msgs/msg/UI
 rosidl_generator_cpp/origincar_msg/msg/data.hpp: /opt/tros/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/origincar_msg/msg/data.hpp: /opt/tros/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/origincar_msg/msg/data.hpp: /opt/tros/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/dev_ws/build/origincar_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/tros/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /root/dev_ws/build/origincar_msg/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/tros/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/origincar_msg/msg/detail/data__builder.hpp: rosidl_generator_cpp/origincar_msg/msg/data.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/origincar_msg/msg/detail/data__builder.hpp
@@ -174,6 +174,6 @@ CMakeFiles/origincar_msg__cpp.dir/clean:
 .PHONY : CMakeFiles/origincar_msg__cpp.dir/clean
 
 CMakeFiles/origincar_msg__cpp.dir/depend:
-	cd /root/dev_ws/build/origincar_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/dev_ws/src/origincar/origincar_msg /root/dev_ws/src/origincar/origincar_msg /root/dev_ws/build/origincar_msg /root/dev_ws/build/origincar_msg /root/dev_ws/build/origincar_msg/CMakeFiles/origincar_msg__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_msg /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_msg /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg/CMakeFiles/origincar_msg__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/origincar_msg__cpp.dir/depend
 

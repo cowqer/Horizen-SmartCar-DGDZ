@@ -1,0 +1,36 @@
+[3.912s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_description -- -j4 -l4
+[4.156s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_description -- -j4 -l4
+[4.626s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_description
+[4.708s] -- Install configuration: ""
+[4.710s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/launch
+[4.713s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/launch/gazebo.launch
+[4.715s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/launch/display.launch
+[4.717s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/launch/display.launch.py
+[4.721s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/urdf
+[4.725s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/urdf/origincar.urdf
+[4.726s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/urdf/origincar.xacro
+[4.727s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/rviz
+[4.729s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/rviz/README
+[4.731s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/rviz/display.rviz
+[4.732s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/meshes
+[4.733s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/meshes/up_left_Link.STL
+[4.734s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/meshes/down_right_Link.STL
+[4.739s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/meshes/up_right_Link.STL
+[4.740s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/meshes/base_link.STL
+[4.742s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/meshes/down_left_Link.STL
+[4.747s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/ament_index/resource_index/package_run_dependencies/origincar_description
+[4.754s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/ament_index/resource_index/parent_prefix_path/origincar_description
+[4.757s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/environment/ament_prefix_path.sh
+[4.783s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/environment/ament_prefix_path.dsv
+[4.785s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/environment/path.sh
+[4.786s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/environment/path.dsv
+[4.787s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/local_setup.bash
+[4.789s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/local_setup.sh
+[4.802s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/local_setup.zsh
+[4.803s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/local_setup.dsv
+[4.805s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/package.dsv
+[4.806s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/ament_index/resource_index/packages/origincar_description
+[4.807s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig.cmake
+[4.809s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig-version.cmake
+[4.810s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_description/share/origincar_description/package.xml
+[4.822s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_description

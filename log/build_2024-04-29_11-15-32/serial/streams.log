@@ -1,0 +1,33 @@
+[1.347s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial -- -j4 -l4
+[1.981s] [100%] Built target serial
+[2.118s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial -- -j4 -l4
+[3.552s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial
+[3.614s] -- Install configuration: ""
+[3.619s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/lib/libserial.a
+[3.621s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/environment/library_path.sh
+[3.624s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/environment/library_path.dsv
+[3.627s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/include/serial
+[3.633s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/include/serial/v8stdint.h
+[3.635s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/include/serial/serial.h
+[3.640s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/include/serial/impl
+[3.644s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/include/serial/impl/win.h
+[3.647s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/include/serial/impl/unix.h
+[3.651s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[3.654s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[3.661s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/environment/ament_prefix_path.sh
+[3.664s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/environment/ament_prefix_path.dsv
+[3.666s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/environment/path.sh
+[3.668s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/environment/path.dsv
+[3.672s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/local_setup.bash
+[3.675s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/local_setup.sh
+[3.680s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/local_setup.zsh
+[3.683s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/local_setup.dsv
+[3.684s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/package.dsv
+[3.687s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/ament_index/resource_index/packages/serial
+[3.691s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.697s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[3.702s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.705s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/cmake/serialConfig.cmake
+[3.709s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/cmake/serialConfig-version.cmake
+[3.715s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/package.xml
+[6.269s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial

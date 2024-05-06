@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/dev_ws/src/origincar/origincar_msg
+CMAKE_SOURCE_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_msg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/dev_ws/build/origincar_msg
+CMAKE_BINARY_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg
 
 # Utility rule file for origincar_msg_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /root/dev_ws/build/origincar_msg
 include CMakeFiles/origincar_msg_uninstall.dir/progress.make
 
 CMakeFiles/origincar_msg_uninstall:
-	/usr/bin/cmake -P /root/dev_ws/build/origincar_msg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 origincar_msg_uninstall: CMakeFiles/origincar_msg_uninstall
 origincar_msg_uninstall: CMakeFiles/origincar_msg_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/origincar_msg_uninstall.dir/clean:
 .PHONY : CMakeFiles/origincar_msg_uninstall.dir/clean
 
 CMakeFiles/origincar_msg_uninstall.dir/depend:
-	cd /root/dev_ws/build/origincar_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/dev_ws/src/origincar/origincar_msg /root/dev_ws/src/origincar/origincar_msg /root/dev_ws/build/origincar_msg /root/dev_ws/build/origincar_msg /root/dev_ws/build/origincar_msg/CMakeFiles/origincar_msg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_msg /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_msg /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg/CMakeFiles/origincar_msg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/origincar_msg_uninstall.dir/depend
 

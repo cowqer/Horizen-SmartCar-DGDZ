@@ -1,0 +1,4 @@
+[console_scripts]
+image_send = test_view.image_send:main
+view = test_view.view:main
+

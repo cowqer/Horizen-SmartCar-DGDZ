@@ -1,0 +1,4 @@
+Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial -- -j4 -l4
+Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial -- -j4 -l4
+Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial
+Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial

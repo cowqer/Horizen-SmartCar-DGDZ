@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/dev_ws/src/origincar/3rdparty/serial_ros2
+CMAKE_SOURCE_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/dev_ws/build/serial
+CMAKE_BINARY_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -76,14 +76,14 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/serial.dir/all:
 	$(MAKE) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/depend
 	$(MAKE) -f CMakeFiles/serial.dir/build.make CMakeFiles/serial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/dev_ws/build/serial/CMakeFiles --progress-num=1,2,3,4 "Built target serial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial/CMakeFiles --progress-num=1,2,3,4 "Built target serial"
 .PHONY : CMakeFiles/serial.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/serial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/build/serial/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/serial.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/build/serial/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial/CMakeFiles 0
 .PHONY : CMakeFiles/serial.dir/rule
 
 # Convenience name for target.
@@ -103,14 +103,14 @@ CMakeFiles/serial.dir/clean:
 CMakeFiles/serial_uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/serial_uninstall.dir/build.make CMakeFiles/serial_uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/serial_uninstall.dir/build.make CMakeFiles/serial_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/dev_ws/build/serial/CMakeFiles --progress-num= "Built target serial_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial/CMakeFiles --progress-num= "Built target serial_uninstall"
 .PHONY : CMakeFiles/serial_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/serial_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/build/serial/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/serial_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/build/serial/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial/CMakeFiles 0
 .PHONY : CMakeFiles/serial_uninstall.dir/rule
 
 # Convenience name for target.
@@ -130,14 +130,14 @@ CMakeFiles/serial_uninstall.dir/clean:
 CMakeFiles/uninstall.dir/all: CMakeFiles/serial_uninstall.dir/all
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/dev_ws/build/serial/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/build/serial/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/build/serial/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.

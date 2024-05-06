@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/dev_ws/src/origincar/origincar_bringup
+CMAKE_SOURCE_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/dev_ws/build/origincar_bringup
+CMAKE_BINARY_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_bringup
 
 # Utility rule file for origincar_bringup_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /root/dev_ws/build/origincar_bringup
 include CMakeFiles/origincar_bringup_uninstall.dir/progress.make
 
 CMakeFiles/origincar_bringup_uninstall:
-	/usr/bin/cmake -P /root/dev_ws/build/origincar_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 origincar_bringup_uninstall: CMakeFiles/origincar_bringup_uninstall
 origincar_bringup_uninstall: CMakeFiles/origincar_bringup_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/origincar_bringup_uninstall.dir/clean:
 .PHONY : CMakeFiles/origincar_bringup_uninstall.dir/clean
 
 CMakeFiles/origincar_bringup_uninstall.dir/depend:
-	cd /root/dev_ws/build/origincar_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/dev_ws/src/origincar/origincar_bringup /root/dev_ws/src/origincar/origincar_bringup /root/dev_ws/build/origincar_bringup /root/dev_ws/build/origincar_bringup /root/dev_ws/build/origincar_bringup/CMakeFiles/origincar_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_bringup /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_bringup /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_bringup /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_bringup /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_bringup/CMakeFiles/origincar_bringup_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/origincar_bringup_uninstall.dir/depend
 

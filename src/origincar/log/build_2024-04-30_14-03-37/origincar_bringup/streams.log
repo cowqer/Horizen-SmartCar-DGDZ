@@ -1,0 +1,50 @@
+[2.802s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_bringup -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup
+[3.585s] -- The C compiler identification is GNU 9.3.0
+[4.248s] -- The CXX compiler identification is GNU 9.3.0
+[4.301s] -- Check for working C compiler: /usr/bin/cc
+[5.321s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.331s] -- Detecting C compiler ABI info
+[6.174s] -- Detecting C compiler ABI info - done
+[6.328s] -- Detecting C compile features
+[6.332s] -- Detecting C compile features - done
+[6.369s] -- Check for working CXX compiler: /usr/bin/c++
+[7.383s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.404s] -- Detecting CXX compiler ABI info
+[8.522s] -- Detecting CXX compiler ABI info - done
+[8.748s] -- Detecting CXX compile features
+[8.761s] -- Detecting CXX compile features - done
+[8.783s] -- Found ament_cmake: 0.9.12 (/opt/tros/share/ament_cmake/cmake)
+[8.997s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.998s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.264s] -- Found ament_lint_auto: 0.9.8 (/opt/tros/share/ament_lint_auto/cmake)
+[12.069s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.080s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.082s] -- Added test 'lint_cmake' to check CMake code style
+[12.085s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[12.096s] -- Added test 'xmllint' to check XML markup files
+[12.105s] -- Configuring done
+[12.122s] -- Generating done
+[12.130s] -- Build files have been written to: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_bringup
+[12.563s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_bringup -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup
+[12.575s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_bringup -- -j4 -l4
+[16.545s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_bringup -- -j4 -l4
+[16.772s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_bringup
+[16.847s] -- Install configuration: ""
+[16.851s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/launch
+[16.853s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/launch/usb_websocket_display.launch.py
+[16.862s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/ament_index/resource_index/package_run_dependencies/origincar_bringup
+[16.866s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/ament_index/resource_index/parent_prefix_path/origincar_bringup
+[16.869s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.sh
+[16.872s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.dsv
+[16.876s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/environment/path.sh
+[16.880s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/environment/path.dsv
+[16.886s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/local_setup.bash
+[16.890s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/local_setup.sh
+[16.893s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/local_setup.zsh
+[16.897s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/local_setup.dsv
+[16.901s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/package.dsv
+[16.907s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/ament_index/resource_index/packages/origincar_bringup
+[16.917s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig.cmake
+[16.919s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig-version.cmake
+[16.923s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/package.xml
+[16.939s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/origincar_bringup

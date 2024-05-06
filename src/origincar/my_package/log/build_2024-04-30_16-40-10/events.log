@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.002451] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.003877] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.099419] (-) TimerEvent: {}
+[0.217085] (-) TimerEvent: {}
+[0.322275] (-) TimerEvent: {}
+[0.426316] (-) TimerEvent: {}
+[0.532105] (-) TimerEvent: {}
+[0.635080] (-) TimerEvent: {}
+[0.736863] (-) TimerEvent: {}
+[0.843278] (-) TimerEvent: {}
+[0.949307] (-) TimerEvent: {}
+[1.053514] (-) TimerEvent: {}
+[1.155756] (-) TimerEvent: {}
+[1.259609] (-) TimerEvent: {}
+[1.361209] (-) TimerEvent: {}
+[1.462600] (-) TimerEvent: {}
+[1.564986] (-) TimerEvent: {}
+[1.668690] (-) TimerEvent: {}
+[1.772728] (-) TimerEvent: {}
+[1.877314] (-) TimerEvent: {}
+[1.984008] (-) TimerEvent: {}
+[2.089698] (-) TimerEvent: {}
+[2.193004] (-) TimerEvent: {}
+[2.294991] (-) TimerEvent: {}
+[2.404383] (-) TimerEvent: {}
+[2.517625] (-) TimerEvent: {}
+[2.618922] (-) TimerEvent: {}
+[2.722253] (-) TimerEvent: {}
+[2.823938] (-) TimerEvent: {}
+[2.925064] (-) TimerEvent: {}
+[3.026104] (-) TimerEvent: {}
+[3.127188] (-) TimerEvent: {}
+[3.232844] (-) TimerEvent: {}
+[3.334700] (-) TimerEvent: {}
+[3.435713] (-) TimerEvent: {}
+[3.536717] (-) TimerEvent: {}
+[3.638145] (-) TimerEvent: {}
+[3.739322] (-) TimerEvent: {}
+[3.840406] (-) TimerEvent: {}
+[3.941537] (-) TimerEvent: {}
+[4.042581] (-) TimerEvent: {}
+[4.143663] (-) TimerEvent: {}
+[4.244776] (-) TimerEvent: {}
+[4.345794] (-) TimerEvent: {}
+[4.446834] (-) TimerEvent: {}
+[4.547856] (-) TimerEvent: {}
+[4.648974] (-) TimerEvent: {}
+[4.750032] (-) TimerEvent: {}
+[4.851658] (-) TimerEvent: {}
+[4.954144] (-) TimerEvent: {}
+[5.058357] (-) TimerEvent: {}
+[5.167827] (-) TimerEvent: {}
+[5.276332] (-) TimerEvent: {}
+[5.385048] (-) TimerEvent: {}
+[5.488773] (-) TimerEvent: {}
+[5.592355] (-) TimerEvent: {}
+[5.694913] (-) TimerEvent: {}
+[5.796860] (-) TimerEvent: {}
+[5.900559] (-) TimerEvent: {}
+[6.002825] (-) TimerEvent: {}
+[6.107398] (-) TimerEvent: {}
+[6.212021] (-) TimerEvent: {}
+[6.314690] (-) TimerEvent: {}
+[6.416957] (-) TimerEvent: {}
+[6.522542] (-) TimerEvent: {}
+[6.626616] (-) TimerEvent: {}
+[6.731294] (-) TimerEvent: {}
+[6.835864] (-) TimerEvent: {}
+[6.940836] (-) TimerEvent: {}
+[7.043628] (-) TimerEvent: {}
+[7.145319] (-) TimerEvent: {}
+[7.246418] (-) TimerEvent: {}
+[7.347504] (-) TimerEvent: {}
+[7.448636] (-) TimerEvent: {}
+[7.549680] (-) TimerEvent: {}
+[7.650651] (-) TimerEvent: {}
+[7.751649] (-) TimerEvent: {}
+[7.852676] (-) TimerEvent: {}
+[7.953704] (-) TimerEvent: {}
+[8.056868] (-) TimerEvent: {}
+[8.157932] (-) TimerEvent: {}
+[8.259054] (-) TimerEvent: {}
+[8.360169] (-) TimerEvent: {}
+[8.461372] (-) TimerEvent: {}
+[8.562542] (-) TimerEvent: {}
+[8.663588] (-) TimerEvent: {}
+[8.764758] (-) TimerEvent: {}
+[8.865949] (-) TimerEvent: {}
+[8.967167] (-) TimerEvent: {}
+[9.068274] (-) TimerEvent: {}
+[9.169744] (-) TimerEvent: {}
+[9.271111] (-) TimerEvent: {}
+[9.372165] (-) TimerEvent: {}
+[9.473294] (-) TimerEvent: {}
+[9.574398] (-) TimerEvent: {}
+[9.675502] (-) TimerEvent: {}
+[9.776571] (-) TimerEvent: {}
+[9.877853] (-) TimerEvent: {}
+[9.979069] (-) TimerEvent: {}
+[10.081344] (-) TimerEvent: {}
+[10.182426] (-) TimerEvent: {}
+[10.283884] (-) TimerEvent: {}
+[10.385132] (-) TimerEvent: {}
+[10.486290] (-) TimerEvent: {}
+[10.565978] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/my_package', 'build', '--build-base', '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/build', 'install', '--record', '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/install.log', '--install-scripts', '$base/lib/my_package', '--single-version-externally-managed'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp//tmux-0/default,22756,0', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.3.15 50049 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLCON_PREFIX_PATH': '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install:/opt/tros', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'screen', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package:/opt/tros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package', 'SSH_CONNECTION': '192.168.3.15 50049 192.168.3.9 22', 'PYTHONPATH': '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/prefix_override:/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/lib/python3.8/site-packages:/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TMUX_PANE': '%2', 'CMAKE_PREFIX_PATH': '/opt/tros'}, 'shell': False}
+[10.586877] (-) TimerEvent: {}
+[10.690464] (-) TimerEvent: {}
+[10.791590] (-) TimerEvent: {}
+[10.892696] (-) TimerEvent: {}
+[10.993792] (-) TimerEvent: {}
+[11.094891] (-) TimerEvent: {}
+[11.196089] (-) TimerEvent: {}
+[11.297376] (-) TimerEvent: {}
+[11.398638] (-) TimerEvent: {}
+[11.499794] (-) TimerEvent: {}
+[11.600975] (-) TimerEvent: {}
+[11.702093] (-) TimerEvent: {}
+[11.803231] (-) TimerEvent: {}
+[11.904271] (-) TimerEvent: {}
+[12.005445] (-) TimerEvent: {}
+[12.106508] (-) TimerEvent: {}
+[12.207581] (-) TimerEvent: {}
+[12.308738] (-) TimerEvent: {}
+[12.409835] (-) TimerEvent: {}
+[12.511288] (-) TimerEvent: {}
+[12.613428] (-) TimerEvent: {}
+[12.615082] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[12.619710] (my_package) StdoutLine: {'line': b'writing build/my_package/my_package.egg-info/PKG-INFO\n'}
+[12.621512] (my_package) StdoutLine: {'line': b'writing dependency_links to build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[12.623448] (my_package) StdoutLine: {'line': b'writing entry points to build/my_package/my_package.egg-info/entry_points.txt\n'}
+[12.624952] (my_package) StdoutLine: {'line': b'writing requirements to build/my_package/my_package.egg-info/requires.txt\n'}
+[12.626339] (my_package) StdoutLine: {'line': b'writing top-level names to build/my_package/my_package.egg-info/top_level.txt\n'}
+[12.713664] (-) TimerEvent: {}
+[12.814685] (-) TimerEvent: {}
+[12.915689] (-) TimerEvent: {}
+[12.950868] (my_package) StdoutLine: {'line': b"reading manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[12.959192] (my_package) StdoutLine: {'line': b"writing manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[12.961336] (my_package) StdoutLine: {'line': b'running build\n'}
+[12.962583] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[12.963532] (my_package) StdoutLine: {'line': b'running install\n'}
+[12.967986] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[12.978751] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[12.982545] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.995603] (my_package) StdoutLine: {'line': b"removing '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[12.999293] (my_package) StdoutLine: {'line': b'Copying build/my_package/my_package.egg-info to /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info\n'}
+[13.006031] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[13.015926] (-) TimerEvent: {}
+[13.116998] (-) TimerEvent: {}
+[13.145812] (my_package) StdoutLine: {'line': b'Installing my_node script to /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/lib/my_package\n'}
+[13.147924] (my_package) StdoutLine: {'line': b"writing list of installed files to '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/install.log'\n"}
+[13.217359] (-) TimerEvent: {}
+[13.318542] (-) TimerEvent: {}
+[13.341117] (my_package) CommandEnded: {'returncode': 0}
+[13.419271] (-) TimerEvent: {}
+[13.520894] (-) TimerEvent: {}
+[13.624569] (-) TimerEvent: {}
+[13.730660] (-) TimerEvent: {}
+[13.835830] (-) TimerEvent: {}
+[13.937352] (-) TimerEvent: {}
+[14.039983] (-) TimerEvent: {}
+[14.144736] (-) TimerEvent: {}
+[14.251509] (-) TimerEvent: {}
+[14.365333] (-) TimerEvent: {}
+[14.466717] (-) TimerEvent: {}
+[14.574599] (-) TimerEvent: {}
+[14.679848] (-) TimerEvent: {}
+[14.716006] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[14.721288] (-) EventReactorShutdown: {}

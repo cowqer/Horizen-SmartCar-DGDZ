@@ -1,0 +1,3 @@
+ros-foxy-rclpy
+setuptools
+std_msgs

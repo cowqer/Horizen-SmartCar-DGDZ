@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.002395] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.004496] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.098295] (-) TimerEvent: {}
+[0.227699] (-) TimerEvent: {}
+[0.330701] (-) TimerEvent: {}
+[0.434448] (-) TimerEvent: {}
+[0.537430] (-) TimerEvent: {}
+[0.640820] (-) TimerEvent: {}
+[0.745965] (-) TimerEvent: {}
+[0.847448] (-) TimerEvent: {}
+[0.951410] (-) TimerEvent: {}
+[1.058040] (-) TimerEvent: {}
+[1.160593] (-) TimerEvent: {}
+[1.264113] (-) TimerEvent: {}
+[1.368613] (-) TimerEvent: {}
+[1.471866] (-) TimerEvent: {}
+[1.574999] (-) TimerEvent: {}
+[1.677908] (-) TimerEvent: {}
+[1.783889] (-) TimerEvent: {}
+[1.887912] (-) TimerEvent: {}
+[1.990200] (-) TimerEvent: {}
+[2.095120] (-) TimerEvent: {}
+[2.196364] (-) TimerEvent: {}
+[2.298106] (-) TimerEvent: {}
+[2.402922] (-) TimerEvent: {}
+[2.506348] (-) TimerEvent: {}
+[2.611567] (-) TimerEvent: {}
+[2.714847] (-) TimerEvent: {}
+[2.818751] (-) TimerEvent: {}
+[2.923010] (-) TimerEvent: {}
+[3.025519] (-) TimerEvent: {}
+[3.130639] (-) TimerEvent: {}
+[3.232070] (-) TimerEvent: {}
+[3.335027] (-) TimerEvent: {}
+[3.437118] (-) TimerEvent: {}
+[3.541923] (-) TimerEvent: {}
+[3.643852] (-) TimerEvent: {}
+[3.750504] (-) TimerEvent: {}
+[3.856463] (-) TimerEvent: {}
+[3.958146] (-) TimerEvent: {}
+[4.047640] (my_package) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 85, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 175, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass:   File "setup.py", line 16\nSyntaxError: Non-UTF-8 code starting with \'\\xd5\' in file setup.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details\n\n'}
+[4.050242] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 1}
+[4.058559] (-) TimerEvent: {}
+[4.060700] (-) EventReactorShutdown: {}

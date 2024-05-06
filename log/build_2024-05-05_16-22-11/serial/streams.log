@@ -1,0 +1,30 @@
+[1.390s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/install/serial
+[1.510s] -- Found rosidl_default_generators: 1.0.1 (/opt/tros/share/rosidl_default_generators/cmake)
+[1.515s] -- Found ament_cmake_core: 0.9.12 (/opt/tros/share/ament_cmake_core/cmake)
+[1.731s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.646s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.680s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.714s] -- Found rosidl_adapter: 1.3.1 (/opt/tros/share/rosidl_adapter/cmake)
+[4.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.550s] -- Configuring done
+[5.605s] -- Generating done
+[5.617s] -- Build files have been written to: /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial
+[5.670s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/install/serial
+[5.674s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial --clean-first -- -j4 -l4
+[6.211s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[6.280s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[6.287s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[10.820s] [01m[K/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[10.821s] [01m[K/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[10.823s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[10.824s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.844s] [01m[K/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[10.846s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[10.847s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[10.890s] [01m[K/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[10.893s] [01m[K/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[10.897s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[10.900s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[13.198s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[13.395s] [100%] Built target serial
+[14.324s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial --clean-first -- -j4 -l4

@@ -1,10 +1,10 @@
 {
   "package_name": "ackermann_msgs",
-  "output_dir": "/root/dev_ws/build/ackermann_msgs/rosidl_typesupport_cpp/ackermann_msgs",
+  "output_dir": "/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs/rosidl_typesupport_cpp/ackermann_msgs",
   "template_dir": "/opt/tros/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/root/dev_ws/build/ackermann_msgs/rosidl_adapter/ackermann_msgs:msg/AckermannDrive.idl",
-    "/root/dev_ws/build/ackermann_msgs/rosidl_adapter/ackermann_msgs:msg/AckermannDriveStamped.idl"
+    "/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs/rosidl_adapter/ackermann_msgs:msg/AckermannDrive.idl",
+    "/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs/rosidl_adapter/ackermann_msgs:msg/AckermannDriveStamped.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/tros/share/std_msgs/msg/Bool.idl",
@@ -47,8 +47,8 @@
     "/opt/tros/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/tros/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/tros/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
-    "/root/dev_ws/build/ackermann_msgs/rosidl_adapter/ackermann_msgs/msg/AckermannDrive.idl",
-    "/root/dev_ws/build/ackermann_msgs/rosidl_adapter/ackermann_msgs/msg/AckermannDriveStamped.idl",
+    "/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs/rosidl_adapter/ackermann_msgs/msg/AckermannDrive.idl",
+    "/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs/rosidl_adapter/ackermann_msgs/msg/AckermannDriveStamped.idl",
     "/opt/tros/share/std_msgs/msg/Bool.idl",
     "/opt/tros/share/std_msgs/msg/Byte.idl",
     "/opt/tros/share/std_msgs/msg/ByteMultiArray.idl",

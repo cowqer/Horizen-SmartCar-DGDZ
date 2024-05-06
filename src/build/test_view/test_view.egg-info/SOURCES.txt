@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/test_view/test_view.egg-info/PKG-INFO
+../build/test_view/test_view.egg-info/SOURCES.txt
+../build/test_view/test_view.egg-info/dependency_links.txt
+../build/test_view/test_view.egg-info/entry_points.txt
+../build/test_view/test_view.egg-info/requires.txt
+../build/test_view/test_view.egg-info/top_level.txt
+../build/test_view/test_view.egg-info/zip-safe
+resource/test_view
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+test_view/__init__.py
+test_view/image_send.py
+test_view/view.py

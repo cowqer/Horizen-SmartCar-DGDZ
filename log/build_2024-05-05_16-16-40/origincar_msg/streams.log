@@ -1,0 +1,134 @@
+[2.673s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg -- -j4 -l4
+[3.117s] [  2%] Built target origincar_msg__cpp
+[3.195s] [ 12%] Built target origincar_msg__rosidl_generator_c
+[3.456s] [ 23%] Built target origincar_msg__rosidl_typesupport_cpp
+[3.542s] [ 33%] Built target origincar_msg__rosidl_typesupport_introspection_cpp
+[3.583s] [ 43%] Built target origincar_msg__rosidl_typesupport_fastrtps_cpp
+[3.605s] [ 53%] Built target origincar_msg__rosidl_typesupport_introspection_c
+[3.713s] [ 64%] Built target origincar_msg__rosidl_typesupport_c
+[3.761s] [ 74%] Built target origincar_msg__rosidl_typesupport_fastrtps_c
+[3.872s] [ 74%] Built target origincar_msg
+[3.987s] [ 76%] Built target origincar_msg__py
+[4.155s] [ 84%] Built target origincar_msg__python
+[4.489s] [ 89%] Built target origincar_msg__rosidl_typesupport_fastrtps_c__pyext
+[4.512s] [ 94%] Built target origincar_msg__rosidl_typesupport_introspection_c__pyext
+[4.539s] [100%] Built target origincar_msg__rosidl_typesupport_c__pyext
+[4.974s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg -- -j4 -l4
+[8.714s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg
+[8.775s] -- Install configuration: ""
+[8.782s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/ament_index/resource_index/rosidl_interfaces/origincar_msg
+[8.787s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg
+[8.788s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg
+[8.789s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/data.h
+[8.791s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/rosidl_generator_c__visibility_control.h
+[8.793s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/sign.h
+[8.796s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail
+[8.799s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__type_support.h
+[8.804s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__functions.h
+[8.809s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__functions.h
+[8.810s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__functions.c
+[8.811s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__type_support.h
+[8.812s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__functions.c
+[8.816s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__struct.h
+[8.819s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__struct.h
+[8.828s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/library_path.sh
+[8.845s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/library_path.dsv
+[8.847s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_generator_c.so
+[8.849s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg
+[8.851s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg
+[8.852s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.853s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail
+[8.853s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__rosidl_typesupport_fastrtps_c.h
+[8.854s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__rosidl_typesupport_fastrtps_c.h
+[8.855s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_fastrtps_c.so
+[8.857s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg
+[8.859s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg
+[8.860s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.861s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail
+[8.862s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__rosidl_typesupport_fastrtps_cpp.hpp
+[8.863s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__rosidl_typesupport_fastrtps_cpp.hpp
+[8.871s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/dds_fastrtps
+[8.885s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_fastrtps_cpp.so
+[8.886s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg
+[8.887s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg
+[8.888s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.890s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail
+[8.893s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__rosidl_typesupport_introspection_c.h
+[8.894s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__type_support.c
+[8.895s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__type_support.c
+[8.896s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__rosidl_typesupport_introspection_c.h
+[8.897s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_introspection_c.so
+[8.898s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_c.so
+[8.902s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg
+[8.903s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg
+[8.904s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/data.hpp
+[8.905s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.907s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail
+[8.908s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__builder.hpp
+[8.909s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__traits.hpp
+[8.910s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__builder.hpp
+[8.911s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__traits.hpp
+[8.912s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__struct.hpp
+[8.913s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__type_support.hpp
+[8.914s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__type_support.hpp
+[8.915s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__struct.hpp
+[8.919s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/sign.hpp
+[8.922s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg
+[8.923s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg
+[8.924s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail
+[8.925s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__type_support.cpp
+[8.926s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__type_support.cpp
+[8.928s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__rosidl_typesupport_introspection_cpp.hpp
+[8.929s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__rosidl_typesupport_introspection_cpp.hpp
+[8.933s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_introspection_cpp.so
+[8.935s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_cpp.so
+[8.941s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/pythonpath.sh
+[8.942s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/pythonpath.dsv
+[8.951s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/__init__.py
+[9.111s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg
+[9.112s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/_data_s.c
+[9.113s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/_sign.py
+[9.115s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/_sign_s.c
+[9.116s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/__init__.py
+[9.116s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/_data.py
+[9.117s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[9.120s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[9.124s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[9.130s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__python.so
+[9.138s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/msg/Data.idl
+[9.139s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/msg/Sign.idl
+[9.140s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/msg/Data.msg
+[9.141s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/msg/Sign.msg
+[9.143s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/ament_index/resource_index/package_run_dependencies/origincar_msg
+[9.146s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/ament_index/resource_index/parent_prefix_path/origincar_msg
+[9.149s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/ament_prefix_path.sh
+[9.151s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/ament_prefix_path.dsv
+[9.153s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/path.sh
+[9.155s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/path.dsv
+[9.156s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/local_setup.bash
+[9.157s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/local_setup.sh
+[9.159s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/local_setup.zsh
+[9.161s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/local_setup.dsv
+[9.163s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/package.dsv
+[9.166s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/ament_index/resource_index/packages/origincar_msg
+[9.168s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_generator_cExport.cmake
+[9.169s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_generator_cExport-noconfig.cmake
+[9.172s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cExport.cmake
+[9.174s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.182s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cExport.cmake
+[9.185s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cExport-noconfig.cmake
+[9.192s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_generator_cppExport.cmake
+[9.197s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cppExport.cmake
+[9.198s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.199s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cppExport.cmake
+[9.199s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[9.200s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/rosidl_cmake-extras.cmake
+[9.200s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.201s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[9.202s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_targets-extras.cmake
+[9.202s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.203s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.203s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.205s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msgConfig.cmake
+[9.206s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msgConfig-version.cmake
+[9.206s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/package.xml

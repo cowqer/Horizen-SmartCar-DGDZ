@@ -1,0 +1,76 @@
+[1.337s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial
+[1.833s] -- The C compiler identification is GNU 9.3.0
+[2.256s] -- The CXX compiler identification is GNU 9.3.0
+[2.287s] -- Check for working C compiler: /usr/bin/cc
+[2.797s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.804s] -- Detecting C compiler ABI info
+[3.252s] -- Detecting C compiler ABI info - done
+[3.354s] -- Detecting C compile features
+[3.358s] -- Detecting C compile features - done
+[3.376s] -- Check for working CXX compiler: /usr/bin/c++
+[3.888s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.897s] -- Detecting CXX compiler ABI info
+[4.437s] -- Detecting CXX compiler ABI info - done
+[4.560s] -- Detecting CXX compile features
+[4.566s] -- Detecting CXX compile features - done
+[4.579s] -- Found rosidl_default_generators: 1.0.1 (/opt/tros/share/rosidl_default_generators/cmake)
+[4.587s] -- Found ament_cmake_core: 0.9.12 (/opt/tros/share/ament_cmake_core/cmake)
+[4.859s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.862s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.852s] -- Found rosidl_adapter: 1.3.1 (/opt/tros/share/rosidl_adapter/cmake)
+[7.159s] -- Found FastRTPS: /opt/tros/include  
+[7.938s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.966s] -- Configuring done
+[8.996s] -- Generating done
+[9.003s] -- Build files have been written to: /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/serial
+[10.090s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial
+[10.105s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/serial -- -j4 -l4
+[10.347s] [35m[1mScanning dependencies of target serial[0m
+[10.505s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[10.507s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[10.529s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[14.667s] [01m[K/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[14.669s] [01m[K/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[14.670s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[14.671s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.672s] [01m[K/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[14.674s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[14.676s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[14.719s] [01m[K/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[14.722s] [01m[K/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[14.723s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[14.725s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[16.978s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[17.437s] [100%] Built target serial
+[19.603s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/serial -- -j4 -l4
+[19.923s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/serial
+[20.054s] -- Install configuration: ""
+[20.056s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/lib/libserial.a
+[20.058s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/environment/library_path.sh
+[20.059s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/environment/library_path.dsv
+[20.072s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/include/serial
+[20.074s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/include/serial/v8stdint.h
+[20.075s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/include/serial/serial.h
+[20.077s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/include/serial/impl
+[20.078s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/include/serial/impl/win.h
+[20.080s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/include/serial/impl/unix.h
+[20.081s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[20.081s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[20.083s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/environment/ament_prefix_path.sh
+[20.086s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/environment/ament_prefix_path.dsv
+[20.092s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/environment/path.sh
+[20.093s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/environment/path.dsv
+[20.094s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/local_setup.bash
+[20.099s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/local_setup.sh
+[20.101s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/local_setup.zsh
+[20.102s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/local_setup.dsv
+[20.104s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/package.dsv
+[20.111s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/ament_index/resource_index/packages/serial
+[20.113s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.114s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[20.116s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.117s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/cmake/serialConfig.cmake
+[20.118s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/cmake/serialConfig-version.cmake
+[20.139s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/package.xml
+[20.141s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/serial

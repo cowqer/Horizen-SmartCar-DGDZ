@@ -1,0 +1,135 @@
+[5.027s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs -- -j4 -l4
+[5.480s] [  2%] Built target ackermann_msgs__cpp
+[5.486s] [ 12%] Built target ackermann_msgs__rosidl_generator_c
+[5.765s] [ 23%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_cpp
+[5.863s] [ 33%] Built target ackermann_msgs__rosidl_typesupport_introspection_cpp
+[5.864s] [ 43%] Built target ackermann_msgs__rosidl_typesupport_cpp
+[6.039s] [ 53%] Built target ackermann_msgs__rosidl_typesupport_introspection_c
+[6.068s] [ 64%] Built target ackermann_msgs__rosidl_typesupport_c
+[6.106s] [ 74%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c
+[6.222s] [ 74%] Built target ackermann_msgs
+[6.337s] [ 76%] Built target ackermann_msgs__py
+[6.485s] [ 84%] Built target ackermann_msgs__python
+[6.761s] [ 89%] Built target ackermann_msgs__rosidl_typesupport_c__pyext
+[6.768s] [ 94%] Built target ackermann_msgs__rosidl_typesupport_introspection_c__pyext
+[6.802s] [100%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.296s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs -- -j4 -l4
+[10.984s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs
+[11.124s] -- Install configuration: ""
+[11.126s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ament_index/resource_index/rosidl_interfaces/ackermann_msgs
+[11.127s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs
+[11.129s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg
+[11.130s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/ackermann_drive.h
+[11.131s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.132s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/ackermann_drive_stamped.h
+[11.133s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail
+[11.138s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__functions.c
+[11.139s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__struct.h
+[11.140s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.h
+[11.141s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__functions.c
+[11.142s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__type_support.h
+[11.143s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__functions.h
+[11.145s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__functions.h
+[11.146s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__struct.h
+[11.192s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/library_path.sh
+[11.207s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/library_path.dsv
+[11.233s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_generator_c.so
+[11.236s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs
+[11.237s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg
+[11.238s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.239s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail
+[11.240s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_fastrtps_c.h
+[11.242s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_fastrtps_c.h
+[11.244s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_c.so
+[11.260s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs
+[11.261s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg
+[11.262s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.264s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail
+[11.265s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[11.281s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_fastrtps_cpp.hpp
+[11.284s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/dds_fastrtps
+[11.290s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.291s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs
+[11.292s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg
+[11.293s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.301s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail
+[11.302s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_introspection_c.h
+[11.303s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.c
+[11.305s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_introspection_c.h
+[11.315s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__type_support.c
+[11.319s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_c.so
+[11.320s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_c.so
+[11.323s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs
+[11.325s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg
+[11.326s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.327s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/ackermann_drive.hpp
+[11.328s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/ackermann_drive_stamped.hpp
+[11.329s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail
+[11.339s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__builder.hpp
+[11.340s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__builder.hpp
+[11.341s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__traits.hpp
+[11.342s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__traits.hpp
+[11.343s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__struct.hpp
+[11.345s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__struct.hpp
+[11.346s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.hpp
+[11.347s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__type_support.hpp
+[11.348s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs
+[11.365s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg
+[11.366s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail
+[11.368s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_introspection_cpp.hpp
+[11.369s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.cpp
+[11.370s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_introspection_cpp.hpp
+[11.371s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__type_support.cpp
+[11.372s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_cpp.so
+[11.373s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_cpp.so
+[11.375s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/pythonpath.sh
+[11.377s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/pythonpath.dsv
+[11.390s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/__init__.py
+[11.460s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg
+[11.462s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/__init__.py
+[11.463s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/_ackermann_drive_stamped_s.c
+[11.465s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/_ackermann_drive_stamped.py
+[11.467s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/_ackermann_drive.py
+[11.468s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/_ackermann_drive_s.c
+[11.469s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[11.472s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[11.489s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[11.500s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__python.so
+[11.516s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDrive.idl
+[11.518s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDriveStamped.idl
+[11.519s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDrive.msg
+[11.521s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDriveStamped.msg
+[11.546s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ament_index/resource_index/package_run_dependencies/ackermann_msgs
+[11.548s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ament_index/resource_index/parent_prefix_path/ackermann_msgs
+[11.552s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/ament_prefix_path.sh
+[11.556s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/ament_prefix_path.dsv
+[11.560s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/path.sh
+[11.563s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/path.dsv
+[11.567s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/local_setup.bash
+[11.569s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/local_setup.sh
+[11.576s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/local_setup.zsh
+[11.578s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/local_setup.dsv
+[11.579s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/package.dsv
+[11.582s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ament_index/resource_index/packages/ackermann_msgs
+[11.583s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_generator_cExport.cmake
+[11.585s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_generator_cExport-noconfig.cmake
+[11.613s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.619s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.620s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cExport.cmake
+[11.637s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[11.640s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_generator_cppExport.cmake
+[11.641s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.642s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.643s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cppExport.cmake
+[11.643s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.673s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake-extras.cmake
+[11.678s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.682s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.687s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[11.692s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.695s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.699s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.703s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgsConfig.cmake
+[11.706s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgsConfig-version.cmake
+[11.708s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/package.xml
+[14.314s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs

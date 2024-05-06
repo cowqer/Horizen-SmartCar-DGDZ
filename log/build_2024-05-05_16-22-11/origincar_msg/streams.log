@@ -1,0 +1,93 @@
+[2.640s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg
+[2.741s] -- Found ament_cmake: 0.9.12 (/opt/tros/share/ament_cmake/cmake)
+[2.940s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.941s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.862s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.967s] -- Found rosidl_default_generators: 1.0.1 (/opt/tros/share/rosidl_default_generators/cmake)
+[4.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.014s] -- Found rosidl_adapter: 1.3.1 (/opt/tros/share/rosidl_adapter/cmake)
+[5.812s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.024s] -- Found std_msgs: 2.0.5 (/opt/tros/share/std_msgs/cmake)
+[6.565s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[8.470s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/tros/share/ament_cmake_cppcheck/cmake)
+[8.476s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/tros/share/ament_cmake_cpplint/cmake)
+[8.499s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/tros/share/ament_cmake_uncrustify/cmake)
+[8.517s] -- Found ament_cmake_ros: 0.9.2 (/opt/tros/share/ament_cmake_ros/cmake)
+[10.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.632s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.953s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[11.957s] -- Found python_cmake_module: 0.8.1 (/opt/tros/share/python_cmake_module/cmake)
+[12.314s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.315s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[12.317s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[12.833s] -- Found ament_cmake_flake8: 0.9.8 (/opt/tros/share/ament_cmake_flake8/cmake)
+[12.834s] -- Found ament_cmake_pep257: 0.9.8 (/opt/tros/share/ament_cmake_pep257/cmake)
+[13.072s] -- Configuring done
+[13.536s] -- Generating done
+[13.738s] -- Build files have been written to: /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg
+[15.544s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg
+[15.555s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg --clean-first -- -j4 -l4
+[16.648s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[16.692s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[19.683s] [  5%] Built target origincar_msg__cpp
+[19.784s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.853s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.894s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[20.096s] [35m[1mScanning dependencies of target origincar_msg__rosidl_generator_c[0m
+[20.289s] [ 15%] [32mBuilding C object CMakeFiles/origincar_msg__rosidl_generator_c.dir/rosidl_generator_c/origincar_msg/msg/detail/data__functions.c.o[0m
+[21.257s] [ 17%] [32mBuilding C object CMakeFiles/origincar_msg__rosidl_generator_c.dir/rosidl_generator_c/origincar_msg/msg/detail/sign__functions.c.o[0m
+[21.748s] [ 20%] [32m[1mLinking C shared library liborigincar_msg__rosidl_generator_c.so[0m
+[22.402s] [ 20%] Built target origincar_msg__rosidl_generator_c
+[22.550s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[23.986s] [35m[1mScanning dependencies of target origincar_msg__rosidl_typesupport_cpp[0m
+[24.208s] [ 25%] [32mBuilding CXX object CMakeFiles/origincar_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/origincar_msg/msg/data__type_support.cpp.o[0m
+[24.360s] [35m[1mScanning dependencies of target origincar_msg__rosidl_typesupport_introspection_cpp[0m
+[24.546s] [ 28%] [32mBuilding CXX object CMakeFiles/origincar_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/origincar_msg/msg/detail/data__type_support.cpp.o[0m
+[24.589s] [35m[1mScanning dependencies of target origincar_msg__rosidl_typesupport_fastrtps_cpp[0m
+[24.764s] [ 30%] [32mBuilding CXX object CMakeFiles/origincar_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/origincar_msg/msg/detail/dds_fastrtps/data__type_support.cpp.o[0m
+[27.406s] [35m[1mScanning dependencies of target origincar_msg__rosidl_typesupport_introspection_c[0m
+[27.584s] [ 33%] [32mBuilding C object CMakeFiles/origincar_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/origincar_msg/msg/detail/data__type_support.c.o[0m
+[28.008s] [ 35%] [32mBuilding C object CMakeFiles/origincar_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/origincar_msg/msg/detail/sign__type_support.c.o[0m
+[28.175s] [ 38%] [32mBuilding CXX object CMakeFiles/origincar_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/origincar_msg/msg/sign__type_support.cpp.o[0m
+[28.487s] [ 41%] [32m[1mLinking C shared library liborigincar_msg__rosidl_typesupport_introspection_c.so[0m
+[28.698s] [ 41%] Built target origincar_msg__rosidl_typesupport_introspection_c
+[29.003s] [ 43%] [32mBuilding CXX object CMakeFiles/origincar_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/origincar_msg/msg/detail/sign__type_support.cpp.o[0m
+[30.984s] [ 46%] [32mBuilding CXX object CMakeFiles/origincar_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/origincar_msg/msg/detail/dds_fastrtps/sign__type_support.cpp.o[0m
+[32.074s] [ 48%] [32m[1mLinking CXX shared library liborigincar_msg__rosidl_typesupport_cpp.so[0m
+[32.409s] [ 51%] [32m[1mLinking CXX shared library liborigincar_msg__rosidl_typesupport_introspection_cpp.so[0m
+[32.462s] [ 51%] Built target origincar_msg__rosidl_typesupport_cpp
+[32.770s] [ 51%] Built target origincar_msg__rosidl_typesupport_introspection_cpp
+[35.315s] [ 53%] [32m[1mLinking CXX shared library liborigincar_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[36.008s] [ 53%] Built target origincar_msg__rosidl_typesupport_fastrtps_cpp
+[36.064s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[38.124s] [35m[1mScanning dependencies of target origincar_msg__rosidl_typesupport_c[0m
+[38.186s] [ 58%] [32mBuilding CXX object CMakeFiles/origincar_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/origincar_msg/msg/data__type_support.cpp.o[0m
+[38.368s] [ 61%] [32mBuilding CXX object CMakeFiles/origincar_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/origincar_msg/msg/sign__type_support.cpp.o[0m
+[38.545s] [ 64%] [32m[1mLinking CXX shared library liborigincar_msg__rosidl_typesupport_c.so[0m
+[38.754s] [ 64%] Built target origincar_msg__rosidl_typesupport_c
+[38.811s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[41.112s] [35m[1mScanning dependencies of target origincar_msg__rosidl_typesupport_fastrtps_c[0m
+[41.181s] [ 69%] [32mBuilding CXX object CMakeFiles/origincar_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/origincar_msg/msg/detail/data__type_support_c.cpp.o[0m
+[43.833s] [ 71%] [32mBuilding CXX object CMakeFiles/origincar_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/origincar_msg/msg/detail/sign__type_support_c.cpp.o[0m
+[46.386s] [ 74%] [32m[1mLinking CXX shared library liborigincar_msg__rosidl_typesupport_fastrtps_c.so[0m
+[46.983s] [ 74%] Built target origincar_msg__rosidl_typesupport_fastrtps_c
+[47.088s] [ 74%] Built target origincar_msg
+[47.194s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[51.550s] [ 76%] Built target origincar_msg__py
+[51.618s] [35m[1mScanning dependencies of target origincar_msg__python[0m
+[51.717s] [ 79%] [32mBuilding C object CMakeFiles/origincar_msg__python.dir/rosidl_generator_py/origincar_msg/msg/_data_s.c.o[0m
+[52.449s] [ 82%] [32mBuilding C object CMakeFiles/origincar_msg__python.dir/rosidl_generator_py/origincar_msg/msg/_sign_s.c.o[0m
+[53.064s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/origincar_msg/liborigincar_msg__python.so[0m
+[53.362s] [ 84%] Built target origincar_msg__python
+[53.417s] [35m[1mScanning dependencies of target origincar_msg__rosidl_typesupport_introspection_c__pyext[0m
+[53.491s] [ 87%] [32mBuilding C object CMakeFiles/origincar_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/origincar_msg/_origincar_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[54.054s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/origincar_msg/origincar_msg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[54.294s] [ 89%] Built target origincar_msg__rosidl_typesupport_introspection_c__pyext
+[54.354s] [35m[1mScanning dependencies of target origincar_msg__rosidl_typesupport_c__pyext[0m
+[54.442s] [ 92%] [32mBuilding C object CMakeFiles/origincar_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/origincar_msg/_origincar_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[55.025s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/origincar_msg/origincar_msg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[55.262s] [ 94%] Built target origincar_msg__rosidl_typesupport_c__pyext
+[55.316s] [35m[1mScanning dependencies of target origincar_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[55.402s] [ 97%] [32mBuilding C object CMakeFiles/origincar_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/origincar_msg/_origincar_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[55.986s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/origincar_msg/origincar_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[56.409s] [100%] Built target origincar_msg__rosidl_typesupport_fastrtps_c__pyext

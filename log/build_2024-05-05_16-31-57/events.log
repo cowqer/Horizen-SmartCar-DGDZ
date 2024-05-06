@@ -1,0 +1,33 @@
+[0.000000] (-) TimerEvent: {}
+[0.001559] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.002151] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003354] (-) JobUnselected: {'identifier': 'origincar_base'}
+[0.004339] (-) JobUnselected: {'identifier': 'origincar_bringup'}
+[0.004818] (-) JobUnselected: {'identifier': 'origincar_description'}
+[0.004992] (-) JobUnselected: {'identifier': 'origincar_msg'}
+[0.005141] (-) JobUnselected: {'identifier': 'serial'}
+[0.005286] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.005445] (test_view) JobQueued: {'identifier': 'test_view', 'dependencies': OrderedDict()}
+[0.005665] (test_view) JobStarted: {'identifier': 'test_view'}
+[0.099316] (-) TimerEvent: {}
+[0.200412] (-) TimerEvent: {}
+[0.304963] (-) TimerEvent: {}
+[0.414656] (-) TimerEvent: {}
+[0.518638] (-) TimerEvent: {}
+[0.620076] (-) TimerEvent: {}
+[0.722995] (-) TimerEvent: {}
+[0.825792] (-) TimerEvent: {}
+[0.930543] (-) TimerEvent: {}
+[1.033865] (-) TimerEvent: {}
+[1.137682] (-) TimerEvent: {}
+[1.241579] (-) TimerEvent: {}
+[1.344268] (-) TimerEvent: {}
+[1.383156] (test_view) JobProgress: {'identifier': 'test_view', 'progress': 'cmake'}
+[1.384902] (test_view) Command: {'cmd': ['/usr/bin/cmake', '/root/dev_ws/Horizen-SmartCar-DGDZ/src/test_view', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/install/test_view'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/test_view', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.3.16 56565 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/src/test_view'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/test_view'), ('SSH_CONNECTION', '192.168.3.16 56565 192.168.3.9 22'), ('PYTHONPATH', '/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/tros')]), 'shell': False}
+[1.444687] (-) TimerEvent: {}
+[1.450488] (test_view) StderrLine: {'line': b'CMake Error: The source directory "/root/dev_ws/Horizen-SmartCar-DGDZ/src/test_view" does not appear to contain CMakeLists.txt.\n'}
+[1.451986] (test_view) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\n'}
+[1.459268] (test_view) CommandEnded: {'returncode': 1}
+[1.466760] (test_view) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/catkin/build.py", line 74, in build\n    rc = await extension.build(\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure\n    buildfile = get_buildfile(cmake_cache)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile\n    if \'Visual Studio\' in generator:\nTypeError: argument of type \'NoneType\' is not iterable\n'}
+[1.468264] (test_view) JobEnded: {'identifier': 'test_view', 'rc': 1}
+[1.479810] (-) EventReactorShutdown: {}

@@ -1,0 +1,33 @@
+[1.423s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/serial -- -j4 -l4
+[1.930s] [100%] Built target serial
+[2.132s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/serial -- -j4 -l4
+[3.519s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/serial
+[3.587s] -- Install configuration: ""
+[3.589s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/lib/libserial.a
+[3.590s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/environment/library_path.sh
+[3.591s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/environment/library_path.dsv
+[3.592s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/include/serial
+[3.593s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/include/serial/v8stdint.h
+[3.599s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/include/serial/serial.h
+[3.607s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/include/serial/impl
+[3.609s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/include/serial/impl/win.h
+[3.612s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/include/serial/impl/unix.h
+[3.613s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[3.614s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[3.615s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/environment/ament_prefix_path.sh
+[3.617s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/environment/ament_prefix_path.dsv
+[3.619s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/environment/path.sh
+[3.623s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/environment/path.dsv
+[3.626s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/local_setup.bash
+[3.641s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/local_setup.sh
+[3.646s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/local_setup.zsh
+[3.650s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/local_setup.dsv
+[3.654s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/package.dsv
+[3.658s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/ament_index/resource_index/packages/serial
+[3.663s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.665s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[3.666s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.668s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/cmake/serialConfig.cmake
+[3.673s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/cmake/serialConfig-version.cmake
+[3.676s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/serial/share/serial/package.xml
+[6.200s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/serial

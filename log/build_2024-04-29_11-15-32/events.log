@@ -1,0 +1,879 @@
+[0.000000] (-) TimerEvent: {}
+[0.001502] (ackermann_msgs) JobQueued: {'identifier': 'ackermann_msgs', 'dependencies': OrderedDict()}
+[0.002040] (origincar_bringup) JobQueued: {'identifier': 'origincar_bringup', 'dependencies': OrderedDict()}
+[0.003756] (origincar_description) JobQueued: {'identifier': 'origincar_description', 'dependencies': OrderedDict()}
+[0.004771] (origincar_msg) JobQueued: {'identifier': 'origincar_msg', 'dependencies': OrderedDict()}
+[0.005266] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.005453] (tf2_tools) JobQueued: {'identifier': 'tf2_tools', 'dependencies': OrderedDict()}
+[0.005606] (origincar_base) JobQueued: {'identifier': 'origincar_base', 'dependencies': OrderedDict([('ackermann_msgs', '/root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs'), ('origincar_description', '/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description'), ('origincar_msg', '/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg'), ('serial', '/root/dev_ws/Horizen-SmartCar-DGDZ/install/serial')])}
+[0.005797] (ackermann_msgs) JobStarted: {'identifier': 'ackermann_msgs'}
+[0.100075] (-) TimerEvent: {}
+[0.201350] (-) TimerEvent: {}
+[0.305589] (-) TimerEvent: {}
+[0.409581] (-) TimerEvent: {}
+[0.512574] (-) TimerEvent: {}
+[0.617029] (-) TimerEvent: {}
+[0.719830] (-) TimerEvent: {}
+[0.822794] (-) TimerEvent: {}
+[0.925246] (-) TimerEvent: {}
+[1.027028] (-) TimerEvent: {}
+[1.129184] (-) TimerEvent: {}
+[1.233073] (-) TimerEvent: {}
+[1.236799] (origincar_description) JobStarted: {'identifier': 'origincar_description'}
+[1.334017] (-) TimerEvent: {}
+[1.435833] (-) TimerEvent: {}
+[1.541702] (-) TimerEvent: {}
+[1.642682] (-) TimerEvent: {}
+[1.743605] (-) TimerEvent: {}
+[1.846945] (-) TimerEvent: {}
+[1.952076] (-) TimerEvent: {}
+[2.054802] (-) TimerEvent: {}
+[2.161745] (-) TimerEvent: {}
+[2.262728] (-) TimerEvent: {}
+[2.364057] (-) TimerEvent: {}
+[2.466143] (-) TimerEvent: {}
+[2.510221] (origincar_msg) JobStarted: {'identifier': 'origincar_msg'}
+[2.567306] (-) TimerEvent: {}
+[2.668568] (-) TimerEvent: {}
+[2.773527] (-) TimerEvent: {}
+[2.875390] (-) TimerEvent: {}
+[2.977967] (-) TimerEvent: {}
+[3.081143] (-) TimerEvent: {}
+[3.185576] (-) TimerEvent: {}
+[3.288500] (-) TimerEvent: {}
+[3.393244] (-) TimerEvent: {}
+[3.495755] (-) TimerEvent: {}
+[3.599419] (-) TimerEvent: {}
+[3.702508] (-) TimerEvent: {}
+[3.773799] (serial) JobStarted: {'identifier': 'serial'}
+[3.804704] (-) TimerEvent: {}
+[3.906781] (-) TimerEvent: {}
+[4.009723] (-) TimerEvent: {}
+[4.113696] (-) TimerEvent: {}
+[4.216710] (-) TimerEvent: {}
+[4.319519] (-) TimerEvent: {}
+[4.422358] (-) TimerEvent: {}
+[4.525790] (-) TimerEvent: {}
+[4.630587] (-) TimerEvent: {}
+[4.736021] (-) TimerEvent: {}
+[4.838529] (-) TimerEvent: {}
+[4.940166] (-) TimerEvent: {}
+[5.018174] (ackermann_msgs) JobProgress: {'identifier': 'ackermann_msgs', 'progress': 'cmake'}
+[5.022795] (ackermann_msgs) JobProgress: {'identifier': 'ackermann_msgs', 'progress': 'build'}
+[5.028007] (ackermann_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.3.14 64747 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs'), ('SSH_CONNECTION', '192.168.3.14 64747 192.168.3.9 22'), ('PYTHONPATH', '/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/dev_ws/Horizen-SmartCar-DGDZ'), ('CMAKE_PREFIX_PATH', '/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[5.042934] (-) TimerEvent: {}
+[5.052946] (origincar_description) JobProgress: {'identifier': 'origincar_description', 'progress': 'cmake'}
+[5.057590] (origincar_description) JobProgress: {'identifier': 'origincar_description', 'progress': 'build'}
+[5.059431] (origincar_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.3.14 64747 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description'), ('SSH_CONNECTION', '192.168.3.14 64747 192.168.3.9 22'), ('PYTHONPATH', '/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/dev_ws/Horizen-SmartCar-DGDZ'), ('CMAKE_PREFIX_PATH', '/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[5.076578] (origincar_msg) JobProgress: {'identifier': 'origincar_msg', 'progress': 'cmake'}
+[5.082320] (origincar_msg) JobProgress: {'identifier': 'origincar_msg', 'progress': 'build'}
+[5.084714] (origincar_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.3.14 64747 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg'), ('SSH_CONNECTION', '192.168.3.14 64747 192.168.3.9 22'), ('PYTHONPATH', '/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/dev_ws/Horizen-SmartCar-DGDZ'), ('CMAKE_PREFIX_PATH', '/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[5.108870] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[5.114678] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[5.117268] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.3.14 64747 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial'), ('SSH_CONNECTION', '192.168.3.14 64747 192.168.3.9 22'), ('PYTHONPATH', '/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/dev_ws/Horizen-SmartCar-DGDZ'), ('CMAKE_PREFIX_PATH', '/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[5.143080] (-) TimerEvent: {}
+[5.244736] (-) TimerEvent: {}
+[5.346267] (-) TimerEvent: {}
+[5.436652] (origincar_description) CommandEnded: {'returncode': 0}
+[5.447073] (-) TimerEvent: {}
+[5.484580] (ackermann_msgs) StdoutLine: {'line': b'[  2%] Built target ackermann_msgs__cpp\n'}
+[5.491067] (ackermann_msgs) StdoutLine: {'line': b'[ 12%] Built target ackermann_msgs__rosidl_generator_c\n'}
+[5.547150] (-) TimerEvent: {}
+[5.581958] (origincar_msg) StdoutLine: {'line': b'[  2%] Built target origincar_msg__cpp\n'}
+[5.596297] (origincar_msg) StdoutLine: {'line': b'[ 12%] Built target origincar_msg__rosidl_generator_c\n'}
+[5.635089] (origincar_description) JobProgress: {'identifier': 'origincar_description', 'progress': 'install'}
+[5.647954] (-) TimerEvent: {}
+[5.752166] (-) TimerEvent: {}
+[5.754808] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[5.770323] (ackermann_msgs) StdoutLine: {'line': b'[ 23%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.821995] (origincar_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.3.14 64747 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description'), ('SSH_CONNECTION', '192.168.3.14 64747 192.168.3.9 22'), ('PYTHONPATH', '/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/dev_ws/Horizen-SmartCar-DGDZ'), ('CMAKE_PREFIX_PATH', '/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[5.851813] (origincar_msg) StdoutLine: {'line': b'[ 23%] Built target origincar_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[5.853429] (-) TimerEvent: {}
+[5.866130] (origincar_msg) StdoutLine: {'line': b'[ 33%] Built target origincar_msg__rosidl_typesupport_introspection_cpp\n'}
+[5.867960] (ackermann_msgs) StdoutLine: {'line': b'[ 33%] Built target ackermann_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.869082] (ackermann_msgs) StdoutLine: {'line': b'[ 43%] Built target ackermann_msgs__rosidl_typesupport_cpp\n'}
+[5.889150] (serial) CommandEnded: {'returncode': 0}
+[5.931194] (origincar_msg) StdoutLine: {'line': b'[ 43%] Built target origincar_msg__rosidl_typesupport_introspection_c\n'}
+[5.939424] (origincar_msg) StdoutLine: {'line': b'[ 53%] Built target origincar_msg__rosidl_typesupport_cpp\n'}
+[5.953752] (-) TimerEvent: {}
+[5.969652] (origincar_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.972779] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/launch\n'}
+[5.974323] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/launch/gazebo.launch\n'}
+[5.976163] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/launch/display.launch\n'}
+[5.977188] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/launch/display.launch.py\n'}
+[5.978196] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/urdf\n'}
+[5.979524] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/urdf/origincar.urdf\n'}
+[5.980677] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/urdf/origincar.xacro\n'}
+[5.981791] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/rviz\n'}
+[5.982754] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/rviz/README\n'}
+[5.989494] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/rviz/display.rviz\n'}
+[5.991110] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/meshes\n'}
+[5.996541] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/meshes/up_left_Link.STL\n'}
+[5.997450] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/meshes/down_right_Link.STL\n'}
+[5.998440] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/meshes/up_right_Link.STL\n'}
+[6.000661] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/meshes/base_link.STL\n'}
+[6.001730] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/meshes/down_left_Link.STL\n'}
+[6.002770] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/ament_index/resource_index/package_run_dependencies/origincar_description\n'}
+[6.003891] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/ament_index/resource_index/parent_prefix_path/origincar_description\n'}
+[6.004989] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/environment/ament_prefix_path.sh\n'}
+[6.006255] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/environment/ament_prefix_path.dsv\n'}
+[6.028829] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/environment/path.sh\n'}
+[6.030070] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/environment/path.dsv\n'}
+[6.031274] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/local_setup.bash\n'}
+[6.032376] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/local_setup.sh\n'}
+[6.033431] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/local_setup.zsh\n'}
+[6.034471] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/local_setup.dsv\n'}
+[6.035755] (origincar_description) StdoutLine: {'line': b'-- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/package.dsv\n'}
+[6.036881] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/ament_index/resource_index/packages/origincar_description\n'}
+[6.038109] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig.cmake\n'}
+[6.039361] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig-version.cmake\n'}
+[6.040520] (origincar_description) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/package.xml\n'}
+[6.041635] (origincar_description) CommandEnded: {'returncode': 0}
+[6.044237] (ackermann_msgs) StdoutLine: {'line': b'[ 53%] Built target ackermann_msgs__rosidl_typesupport_introspection_c\n'}
+[6.060735] (-) TimerEvent: {}
+[6.072650] (ackermann_msgs) StdoutLine: {'line': b'[ 64%] Built target ackermann_msgs__rosidl_typesupport_c\n'}
+[6.111433] (ackermann_msgs) StdoutLine: {'line': b'[ 74%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.118182] (origincar_msg) StdoutLine: {'line': b'[ 64%] Built target origincar_msg__rosidl_typesupport_c\n'}
+[6.123513] (origincar_msg) StdoutLine: {'line': b'[ 74%] Built target origincar_msg__rosidl_typesupport_fastrtps_c\n'}
+[6.161169] (-) TimerEvent: {}
+[6.226436] (ackermann_msgs) StdoutLine: {'line': b'[ 74%] Built target ackermann_msgs\n'}
+[6.236303] (origincar_msg) StdoutLine: {'line': b'[ 74%] Built target origincar_msg\n'}
+[6.262127] (-) TimerEvent: {}
+[6.340871] (ackermann_msgs) StdoutLine: {'line': b'[ 76%] Built target ackermann_msgs__py\n'}
+[6.348448] (origincar_msg) StdoutLine: {'line': b'[ 76%] Built target origincar_msg__py\n'}
+[6.364307] (-) TimerEvent: {}
+[6.473918] (-) TimerEvent: {}
+[6.489749] (ackermann_msgs) StdoutLine: {'line': b'[ 84%] Built target ackermann_msgs__python\n'}
+[6.495159] (origincar_msg) StdoutLine: {'line': b'[ 84%] Built target origincar_msg__python\n'}
+[6.575919] (-) TimerEvent: {}
+[6.679112] (-) TimerEvent: {}
+[6.704968] (origincar_msg) StdoutLine: {'line': b'[ 89%] Built target origincar_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[6.756355] (origincar_msg) StdoutLine: {'line': b'[ 94%] Built target origincar_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.765886] (ackermann_msgs) StdoutLine: {'line': b'[ 89%] Built target ackermann_msgs__rosidl_typesupport_c__pyext\n'}
+[6.772985] (ackermann_msgs) StdoutLine: {'line': b'[ 94%] Built target ackermann_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.780398] (-) TimerEvent: {}
+[6.784810] (origincar_msg) StdoutLine: {'line': b'[100%] Built target origincar_msg__rosidl_typesupport_c__pyext\n'}
+[6.804802] (ackermann_msgs) StdoutLine: {'line': b'[100%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.881452] (-) TimerEvent: {}
+[6.984651] (-) TimerEvent: {}
+[7.087189] (-) TimerEvent: {}
+[7.189269] (-) TimerEvent: {}
+[7.274215] (origincar_msg) CommandEnded: {'returncode': 0}
+[7.289713] (-) TimerEvent: {}
+[7.295551] (ackermann_msgs) CommandEnded: {'returncode': 0}
+[7.316028] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[7.318312] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.3.14 64747 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/serial'), ('SSH_CONNECTION', '192.168.3.14 64747 192.168.3.9 22'), ('PYTHONPATH', '/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/dev_ws/Horizen-SmartCar-DGDZ'), ('CMAKE_PREFIX_PATH', '/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[7.388375] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.389967] (-) TimerEvent: {}
+[7.391920] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/lib/libserial.a\n'}
+[7.394208] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/environment/library_path.sh\n'}
+[7.396427] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/environment/library_path.dsv\n'}
+[7.400538] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/include/serial\n'}
+[7.404610] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/include/serial/v8stdint.h\n'}
+[7.409035] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/include/serial/serial.h\n'}
+[7.412340] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/include/serial/impl\n'}
+[7.415507] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/include/serial/impl/win.h\n'}
+[7.419168] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/include/serial/impl/unix.h\n'}
+[7.424836] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[7.428088] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[7.433260] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[7.436685] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[7.439407] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/environment/path.sh\n'}
+[7.441922] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/environment/path.dsv\n'}
+[7.443081] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/local_setup.bash\n'}
+[7.447370] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/local_setup.sh\n'}
+[7.452448] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/local_setup.zsh\n'}
+[7.455394] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/local_setup.dsv\n'}
+[7.458067] (serial) StdoutLine: {'line': b'-- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/package.dsv\n'}
+[7.460880] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[7.463882] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.468812] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.472399] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.477453] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[7.480950] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[7.487189] (serial) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/share/serial/package.xml\n'}
+[7.492241] (-) TimerEvent: {}
+[7.597064] (-) TimerEvent: {}
+[7.700151] (-) TimerEvent: {}
+[7.803412] (-) TimerEvent: {}
+[7.905995] (-) TimerEvent: {}
+[8.010580] (-) TimerEvent: {}
+[8.113996] (-) TimerEvent: {}
+[8.217217] (-) TimerEvent: {}
+[8.321614] (-) TimerEvent: {}
+[8.426757] (-) TimerEvent: {}
+[8.531165] (-) TimerEvent: {}
+[8.634691] (-) TimerEvent: {}
+[8.740588] (-) TimerEvent: {}
+[8.745160] (origincar_description) JobEnded: {'identifier': 'origincar_description', 'rc': 0}
+[8.751931] (origincar_bringup) JobStarted: {'identifier': 'origincar_bringup'}
+[8.842221] (-) TimerEvent: {}
+[8.944320] (-) TimerEvent: {}
+[9.052357] (-) TimerEvent: {}
+[9.153630] (-) TimerEvent: {}
+[9.256994] (-) TimerEvent: {}
+[9.360308] (-) TimerEvent: {}
+[9.462266] (-) TimerEvent: {}
+[9.621248] (-) TimerEvent: {}
+[9.727587] (-) TimerEvent: {}
+[9.829026] (-) TimerEvent: {}
+[9.930677] (-) TimerEvent: {}
+[10.034019] (-) TimerEvent: {}
+[10.042509] (serial) CommandEnded: {'returncode': 0}
+[10.134791] (-) TimerEvent: {}
+[10.237689] (-) TimerEvent: {}
+[10.341616] (-) TimerEvent: {}
+[10.443146] (-) TimerEvent: {}
+[10.547749] (-) TimerEvent: {}
+[10.653055] (-) TimerEvent: {}
+[10.754323] (-) TimerEvent: {}
+[10.856726] (-) TimerEvent: {}
+[10.960672] (origincar_msg) JobProgress: {'identifier': 'origincar_msg', 'progress': 'install'}
+[10.961102] (-) TimerEvent: {}
+[10.964104] (origincar_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.3.14 64747 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg'), ('SSH_CONNECTION', '192.168.3.14 64747 192.168.3.9 22'), ('PYTHONPATH', '/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/dev_ws/Horizen-SmartCar-DGDZ'), ('CMAKE_PREFIX_PATH', '/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[10.979639] (ackermann_msgs) JobProgress: {'identifier': 'ackermann_msgs', 'progress': 'install'}
+[10.982133] (ackermann_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.3.14 64747 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs'), ('SSH_CONNECTION', '192.168.3.14 64747 192.168.3.9 22'), ('PYTHONPATH', '/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/dev_ws/Horizen-SmartCar-DGDZ'), ('CMAKE_PREFIX_PATH', '/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[11.020252] (origincar_bringup) JobProgress: {'identifier': 'origincar_bringup', 'progress': 'cmake'}
+[11.025725] (origincar_bringup) JobProgress: {'identifier': 'origincar_bringup', 'progress': 'build'}
+[11.029496] (origincar_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_bringup', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.3.14 64747 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_bringup'), ('SSH_CONNECTION', '192.168.3.14 64747 192.168.3.9 22'), ('PYTHONPATH', '/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/dev_ws/Horizen-SmartCar-DGDZ'), ('CMAKE_PREFIX_PATH', '/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[11.047475] (origincar_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.055611] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/ament_index/resource_index/rosidl_interfaces/origincar_msg\n'}
+[11.056844] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg\n'}
+[11.065155] (-) TimerEvent: {}
+[11.067355] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg\n'}
+[11.069346] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/data.h\n'}
+[11.071135] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.072297] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/sign.h\n'}
+[11.073264] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail\n'}
+[11.074607] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__type_support.h\n'}
+[11.075884] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__functions.h\n'}
+[11.077554] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__functions.h\n'}
+[11.078628] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__functions.c\n'}
+[11.079734] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__type_support.h\n'}
+[11.081726] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__functions.c\n'}
+[11.082656] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__struct.h\n'}
+[11.083669] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__struct.h\n'}
+[11.084567] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/library_path.sh\n'}
+[11.086583] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/library_path.dsv\n'}
+[11.089721] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_generator_c.so\n'}
+[11.091096] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg\n'}
+[11.092386] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg\n'}
+[11.093696] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.094993] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail\n'}
+[11.096808] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__rosidl_typesupport_fastrtps_c.h\n'}
+[11.097924] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__rosidl_typesupport_fastrtps_c.h\n'}
+[11.099180] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[11.100323] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg\n'}
+[11.101412] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg\n'}
+[11.102412] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.104082] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail\n'}
+[11.105206] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.106198] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.107507] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/dds_fastrtps\n'}
+[11.108623] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.109764] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg\n'}
+[11.114982] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg\n'}
+[11.116226] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.117320] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail\n'}
+[11.118363] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__rosidl_typesupport_introspection_c.h\n'}
+[11.124664] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__type_support.c\n'}
+[11.125811] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__type_support.c\n'}
+[11.126937] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__rosidl_typesupport_introspection_c.h\n'}
+[11.128074] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_introspection_c.so\n'}
+[11.129189] (ackermann_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.130326] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_c.so\n'}
+[11.131502] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ament_index/resource_index/rosidl_interfaces/ackermann_msgs\n'}
+[11.132543] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs\n'}
+[11.133756] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg\n'}
+[11.134963] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/ackermann_drive.h\n'}
+[11.136046] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.137100] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/ackermann_drive_stamped.h\n'}
+[11.138134] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail\n'}
+[11.142465] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__functions.c\n'}
+[11.143923] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__struct.h\n'}
+[11.145083] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.h\n'}
+[11.146128] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__functions.c\n'}
+[11.147424] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__type_support.h\n'}
+[11.148468] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__functions.h\n'}
+[11.149677] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__functions.h\n'}
+[11.150778] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__struct.h\n'}
+[11.152114] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg\n'}
+[11.176871] (-) TimerEvent: {}
+[11.178850] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg\n'}
+[11.180098] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/data.hpp\n'}
+[11.181217] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.182309] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail\n'}
+[11.183595] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__builder.hpp\n'}
+[11.184773] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__traits.hpp\n'}
+[11.185796] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__builder.hpp\n'}
+[11.191224] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__traits.hpp\n'}
+[11.192521] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__struct.hpp\n'}
+[11.193666] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__type_support.hpp\n'}
+[11.194818] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__type_support.hpp\n'}
+[11.196039] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__struct.hpp\n'}
+[11.197162] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/library_path.sh\n'}
+[11.198267] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/library_path.dsv\n'}
+[11.213099] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/sign.hpp\n'}
+[11.214325] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg\n'}
+[11.215522] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg\n'}
+[11.216936] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail\n'}
+[11.218183] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__type_support.cpp\n'}
+[11.234659] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__type_support.cpp\n'}
+[11.236029] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.237194] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include/origincar_msg/msg/detail/sign__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.238298] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_generator_c.so\n'}
+[11.239477] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[11.240627] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs\n'}
+[11.241802] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg\n'}
+[11.242847] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.244258] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail\n'}
+[11.245399] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_fastrtps_c.h\n'}
+[11.246544] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[11.247755] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__rosidl_typesupport_cpp.so\n'}
+[11.248940] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[11.250040] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/pythonpath.sh\n'}
+[11.264975] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs\n'}
+[11.266209] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg\n'}
+[11.267420] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.268692] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail\n'}
+[11.269997] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.278641] (-) TimerEvent: {}
+[11.285260] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.289113] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/dds_fastrtps\n'}
+[11.290316] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/pythonpath.dsv\n'}
+[11.293748] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/__init__.py\n'}
+[11.294847] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.296015] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs\n'}
+[11.297122] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg\n'}
+[11.298243] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.305949] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail\n'}
+[11.307344] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_introspection_c.h\n'}
+[11.308540] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.c\n'}
+[11.309655] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_introspection_c.h\n'}
+[11.310839] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__type_support.c\n'}
+[11.321701] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_c.so\n'}
+[11.325465] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_c.so\n'}
+[11.326614] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs\n'}
+[11.329738] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg\n'}
+[11.330811] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.332093] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/ackermann_drive.hpp\n'}
+[11.333174] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/ackermann_drive_stamped.hpp\n'}
+[11.334197] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail\n'}
+[11.335250] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__builder.hpp\n'}
+[11.344927] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__builder.hpp\n'}
+[11.346058] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__traits.hpp\n'}
+[11.347451] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__traits.hpp\n'}
+[11.348626] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__struct.hpp\n'}
+[11.349725] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__struct.hpp\n'}
+[11.350752] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.hpp\n'}
+[11.352144] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__type_support.hpp\n'}
+[11.353314] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs\n'}
+[11.354424] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg\n'}
+[11.371616] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail\n'}
+[11.372715] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.373771] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.cpp\n'}
+[11.374842] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.376173] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include/ackermann_msgs/msg/detail/ackermann_drive__type_support.cpp\n'}
+[11.377395] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[11.378541] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_cpp.so\n'}
+[11.379637] (-) TimerEvent: {}
+[11.380594] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/pythonpath.sh\n'}
+[11.381732] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/pythonpath.dsv\n'}
+[11.383128] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/__init__.py\n'}
+[11.464232] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg\n'}
+[11.466644] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/__init__.py\n'}
+[11.467969] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/_ackermann_drive_stamped_s.c\n'}
+[11.469175] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/_ackermann_drive_stamped.py\n'}
+[11.471772] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/_ackermann_drive.py\n'}
+[11.473099] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/msg/_ackermann_drive_s.c\n'}
+[11.474115] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.475660] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.480654] (-) TimerEvent: {}
+[11.483094] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.498822] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/libackermann_msgs__python.so\n'}
+[11.519967] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDrive.idl\n'}
+[11.521874] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDriveStamped.idl\n'}
+[11.524170] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDrive.msg\n'}
+[11.525583] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDriveStamped.msg\n'}
+[11.527283] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg\n'}
+[11.528342] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/_data_s.c\n'}
+[11.529758] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/_sign.py\n'}
+[11.530809] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/_sign_s.c\n'}
+[11.536536] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/__init__.py\n'}
+[11.542541] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/msg/_data.py\n'}
+[11.547946] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.550750] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ament_index/resource_index/package_run_dependencies/ackermann_msgs\n'}
+[11.552122] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ament_index/resource_index/parent_prefix_path/ackermann_msgs\n'}
+[11.556208] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/ament_prefix_path.sh\n'}
+[11.559916] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/ament_prefix_path.dsv\n'}
+[11.563526] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/path.sh\n'}
+[11.566521] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/environment/path.dsv\n'}
+[11.569767] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/local_setup.bash\n'}
+[11.573118] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/local_setup.sh\n'}
+[11.577349] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/local_setup.zsh\n'}
+[11.581834] (-) TimerEvent: {}
+[11.582759] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/local_setup.dsv\n'}
+[11.584196] (ackermann_msgs) StdoutLine: {'line': b'-- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/package.dsv\n'}
+[11.584929] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.585816] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ament_index/resource_index/packages/ackermann_msgs\n'}
+[11.588544] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_generator_cExport.cmake\n'}
+[11.589975] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.591056] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages/origincar_msg/origincar_msg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.592222] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/liborigincar_msg__python.so\n'}
+[11.594722] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/msg/Data.idl\n'}
+[11.598748] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/msg/Sign.idl\n'}
+[11.607202] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/msg/Data.msg\n'}
+[11.615370] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.620483] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.625193] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cExport.cmake\n'}
+[11.626097] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/msg/Sign.msg\n'}
+[11.628681] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/ament_index/resource_index/package_run_dependencies/origincar_msg\n'}
+[11.633086] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/ament_index/resource_index/parent_prefix_path/origincar_msg\n'}
+[11.637365] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/ament_prefix_path.sh\n'}
+[11.641706] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.642844] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_generator_cppExport.cmake\n'}
+[11.646598] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.647416] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.648173] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[11.648877] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.649535] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/ament_prefix_path.dsv\n'}
+[11.650354] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/path.sh\n'}
+[11.651504] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/environment/path.dsv\n'}
+[11.655640] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/local_setup.bash\n'}
+[11.657810] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/local_setup.sh\n'}
+[11.661409] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/local_setup.zsh\n'}
+[11.667313] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/local_setup.dsv\n'}
+[11.669455] (origincar_msg) StdoutLine: {'line': b'-- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/package.dsv\n'}
+[11.673702] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/ament_index/resource_index/packages/origincar_msg\n'}
+[11.676866] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[11.680548] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.684743] (-) TimerEvent: {}
+[11.687464] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.689984] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.694273] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.698708] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.701453] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.705876] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgsConfig.cmake\n'}
+[11.710110] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgsConfig-version.cmake\n'}
+[11.713593] (ackermann_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/share/ackermann_msgs/package.xml\n'}
+[11.717274] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_generator_cExport.cmake\n'}
+[11.720203] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.726599] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.728831] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.732206] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cExport.cmake\n'}
+[11.735188] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.738769] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_generator_cppExport.cmake\n'}
+[11.741862] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.745387] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.749180] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cppExport.cmake\n'}
+[11.752632] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.755675] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[11.760515] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.765293] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.767880] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.770963] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.774770] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.776660] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.779920] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msgConfig.cmake\n'}
+[11.783329] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/cmake/origincar_msgConfig-version.cmake\n'}
+[11.785604] (-) TimerEvent: {}
+[11.787479] (origincar_msg) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/share/origincar_msg/package.xml\n'}
+[11.886355] (-) TimerEvent: {}
+[11.988789] (-) TimerEvent: {}
+[12.091613] (-) TimerEvent: {}
+[12.195730] (-) TimerEvent: {}
+[12.297651] (-) TimerEvent: {}
+[12.399823] (-) TimerEvent: {}
+[12.501308] (-) TimerEvent: {}
+[12.604332] (-) TimerEvent: {}
+[12.709208] (-) TimerEvent: {}
+[12.718253] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[12.725922] (tf2_tools) JobStarted: {'identifier': 'tf2_tools'}
+[12.809719] (-) TimerEvent: {}
+[12.911289] (-) TimerEvent: {}
+[13.014072] (-) TimerEvent: {}
+[13.127695] (-) TimerEvent: {}
+[13.232285] (-) TimerEvent: {}
+[13.336600] (-) TimerEvent: {}
+[13.439651] (-) TimerEvent: {}
+[13.542297] (-) TimerEvent: {}
+[13.646173] (-) TimerEvent: {}
+[13.748698] (-) TimerEvent: {}
+[13.851620] (-) TimerEvent: {}
+[13.959189] (-) TimerEvent: {}
+[14.061273] (-) TimerEvent: {}
+[14.163313] (-) TimerEvent: {}
+[14.267931] (-) TimerEvent: {}
+[14.300267] (origincar_bringup) CommandEnded: {'returncode': 0}
+[14.317252] (ackermann_msgs) CommandEnded: {'returncode': 0}
+[14.368994] (-) TimerEvent: {}
+[14.472116] (-) TimerEvent: {}
+[14.573751] (-) TimerEvent: {}
+[14.676758] (-) TimerEvent: {}
+[14.777843] (-) TimerEvent: {}
+[14.880985] (-) TimerEvent: {}
+[14.985118] (-) TimerEvent: {}
+[15.088481] (-) TimerEvent: {}
+[15.191016] (-) TimerEvent: {}
+[15.294143] (-) TimerEvent: {}
+[15.397345] (-) TimerEvent: {}
+[15.500884] (-) TimerEvent: {}
+[15.604955] (-) TimerEvent: {}
+[15.708211] (-) TimerEvent: {}
+[15.810629] (-) TimerEvent: {}
+[15.883446] (origincar_msg) CommandEnded: {'returncode': 0}
+[15.911587] (-) TimerEvent: {}
+[16.015722] (-) TimerEvent: {}
+[16.120679] (-) TimerEvent: {}
+[16.224706] (-) TimerEvent: {}
+[16.327737] (-) TimerEvent: {}
+[16.432788] (-) TimerEvent: {}
+[16.541916] (-) TimerEvent: {}
+[16.643870] (-) TimerEvent: {}
+[16.744895] (-) TimerEvent: {}
+[16.848034] (-) TimerEvent: {}
+[16.951251] (-) TimerEvent: {}
+[17.054182] (-) TimerEvent: {}
+[17.157712] (-) TimerEvent: {}
+[17.263108] (-) TimerEvent: {}
+[17.366589] (-) TimerEvent: {}
+[17.471094] (-) TimerEvent: {}
+[17.576717] (-) TimerEvent: {}
+[17.678256] (-) TimerEvent: {}
+[17.779537] (-) TimerEvent: {}
+[17.880617] (-) TimerEvent: {}
+[17.981687] (-) TimerEvent: {}
+[18.082773] (-) TimerEvent: {}
+[18.184048] (-) TimerEvent: {}
+[18.285113] (-) TimerEvent: {}
+[18.386190] (-) TimerEvent: {}
+[18.487299] (-) TimerEvent: {}
+[18.588329] (-) TimerEvent: {}
+[18.689412] (-) TimerEvent: {}
+[18.790460] (-) TimerEvent: {}
+[18.891646] (-) TimerEvent: {}
+[18.992767] (-) TimerEvent: {}
+[19.093919] (-) TimerEvent: {}
+[19.195089] (-) TimerEvent: {}
+[19.297120] (-) TimerEvent: {}
+[19.402350] (-) TimerEvent: {}
+[19.505099] (-) TimerEvent: {}
+[19.611130] (-) TimerEvent: {}
+[19.714319] (-) TimerEvent: {}
+[19.819293] (-) TimerEvent: {}
+[19.921628] (-) TimerEvent: {}
+[20.023931] (-) TimerEvent: {}
+[20.127964] (-) TimerEvent: {}
+[20.233647] (-) TimerEvent: {}
+[20.334781] (-) TimerEvent: {}
+[20.438226] (-) TimerEvent: {}
+[20.533946] (origincar_bringup) JobProgress: {'identifier': 'origincar_bringup', 'progress': 'install'}
+[20.535728] (origincar_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_bringup'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.3.14 64747 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_bringup'), ('SSH_CONNECTION', '192.168.3.14 64747 192.168.3.9 22'), ('PYTHONPATH', '/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/dev_ws/Horizen-SmartCar-DGDZ'), ('CMAKE_PREFIX_PATH', '/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[20.545737] (-) TimerEvent: {}
+[20.647407] (-) TimerEvent: {}
+[20.750697] (-) TimerEvent: {}
+[20.853653] (-) TimerEvent: {}
+[20.955071] (-) TimerEvent: {}
+[21.058474] (-) TimerEvent: {}
+[21.162542] (-) TimerEvent: {}
+[21.265193] (-) TimerEvent: {}
+[21.368535] (-) TimerEvent: {}
+[21.473770] (-) TimerEvent: {}
+[21.575460] (-) TimerEvent: {}
+[21.680423] (-) TimerEvent: {}
+[21.783217] (-) TimerEvent: {}
+[21.886741] (-) TimerEvent: {}
+[21.989993] (-) TimerEvent: {}
+[22.094171] (-) TimerEvent: {}
+[22.197222] (-) TimerEvent: {}
+[22.302453] (-) TimerEvent: {}
+[22.360902] (ackermann_msgs) JobEnded: {'identifier': 'ackermann_msgs', 'rc': 0}
+[22.369926] (origincar_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.371228] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/launch\n'}
+[22.371942] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/launch/usb_websocket_display.launch.py\n'}
+[22.372611] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/ament_index/resource_index/package_run_dependencies/origincar_bringup\n'}
+[22.373224] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/ament_index/resource_index/parent_prefix_path/origincar_bringup\n'}
+[22.373879] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.sh\n'}
+[22.374507] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.dsv\n'}
+[22.375226] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/environment/path.sh\n'}
+[22.375917] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/environment/path.dsv\n'}
+[22.376528] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/local_setup.bash\n'}
+[22.377195] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/local_setup.sh\n'}
+[22.377874] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/local_setup.zsh\n'}
+[22.378584] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/local_setup.dsv\n'}
+[22.379277] (origincar_bringup) StdoutLine: {'line': b'-- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/package.dsv\n'}
+[22.379929] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/ament_index/resource_index/packages/origincar_bringup\n'}
+[22.380534] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig.cmake\n'}
+[22.381162] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig-version.cmake\n'}
+[22.381801] (origincar_bringup) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_bringup/share/origincar_bringup/package.xml\n'}
+[22.402990] (-) TimerEvent: {}
+[22.504112] (-) TimerEvent: {}
+[22.607789] (-) TimerEvent: {}
+[22.709581] (-) TimerEvent: {}
+[22.813297] (-) TimerEvent: {}
+[22.914992] (-) TimerEvent: {}
+[23.047044] (-) TimerEvent: {}
+[23.148603] (-) TimerEvent: {}
+[23.251382] (-) TimerEvent: {}
+[23.354964] (-) TimerEvent: {}
+[23.458604] (-) TimerEvent: {}
+[23.561833] (-) TimerEvent: {}
+[23.664510] (-) TimerEvent: {}
+[23.768358] (-) TimerEvent: {}
+[23.872754] (-) TimerEvent: {}
+[23.978254] (-) TimerEvent: {}
+[24.081867] (-) TimerEvent: {}
+[24.186092] (-) TimerEvent: {}
+[24.287211] (-) TimerEvent: {}
+[24.329818] (origincar_msg) JobEnded: {'identifier': 'origincar_msg', 'rc': 0}
+[24.351799] (origincar_base) JobStarted: {'identifier': 'origincar_base'}
+[24.388795] (-) TimerEvent: {}
+[24.492231] (-) TimerEvent: {}
+[24.596135] (-) TimerEvent: {}
+[24.702496] (-) TimerEvent: {}
+[24.805560] (-) TimerEvent: {}
+[24.909174] (-) TimerEvent: {}
+[25.012798] (-) TimerEvent: {}
+[25.115832] (-) TimerEvent: {}
+[25.219341] (-) TimerEvent: {}
+[25.323184] (-) TimerEvent: {}
+[25.427591] (-) TimerEvent: {}
+[25.530926] (-) TimerEvent: {}
+[25.640937] (-) TimerEvent: {}
+[25.742644] (-) TimerEvent: {}
+[25.848496] (origincar_bringup) CommandEnded: {'returncode': 0}
+[25.854272] (-) TimerEvent: {}
+[25.958713] (-) TimerEvent: {}
+[26.062921] (-) TimerEvent: {}
+[26.164294] (-) TimerEvent: {}
+[26.266916] (-) TimerEvent: {}
+[26.371074] (-) TimerEvent: {}
+[26.473266] (-) TimerEvent: {}
+[26.576041] (-) TimerEvent: {}
+[26.679610] (-) TimerEvent: {}
+[26.783616] (-) TimerEvent: {}
+[26.887570] (-) TimerEvent: {}
+[26.939335] (origincar_base) JobProgress: {'identifier': 'origincar_base', 'progress': 'cmake'}
+[26.945298] (origincar_base) JobProgress: {'identifier': 'origincar_base', 'progress': 'build'}
+[26.948160] (origincar_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base', '--', '-j4', '-l4'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.3.14 64747 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/Horizen-SmartCar-DGDZ/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base'), ('SSH_CONNECTION', '192.168.3.14 64747 192.168.3.9 22'), ('PYTHONPATH', '/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/dev_ws/Horizen-SmartCar-DGDZ'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/Horizen-SmartCar-DGDZ/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs:/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[26.987848] (-) TimerEvent: {}
+[27.091004] (-) TimerEvent: {}
+[27.199014] (-) TimerEvent: {}
+[27.302965] (-) TimerEvent: {}
+[27.323892] (origincar_base) StdoutLine: {'line': b'[  2%] Built target origincar_base__cpp\n'}
+[27.363985] (origincar_base) StdoutLine: {'line': b'[ 11%] Built target origincar_base__rosidl_generator_c\n'}
+[27.404657] (-) TimerEvent: {}
+[27.451440] (origincar_base) StdoutLine: {'line': b'[ 20%] Built target origincar_base_node\n'}
+[27.506256] (-) TimerEvent: {}
+[27.553629] (origincar_base) StdoutLine: {'line': b'[ 29%] Built target origincar_base__rosidl_typesupport_cpp\n'}
+[27.574089] (origincar_base) StdoutLine: {'line': b'[ 38%] Built target origincar_base__rosidl_typesupport_introspection_cpp\n'}
+[27.602385] (origincar_base) StdoutLine: {'line': b'[ 47%] Built target origincar_base__rosidl_typesupport_fastrtps_cpp\n'}
+[27.607618] (-) TimerEvent: {}
+[27.635916] (origincar_base) StdoutLine: {'line': b'[ 55%] Built target origincar_base__rosidl_typesupport_c\n'}
+[27.686014] (origincar_base) StdoutLine: {'line': b'[ 64%] Built target origincar_base__rosidl_typesupport_introspection_c\n'}
+[27.708759] (-) TimerEvent: {}
+[27.731461] (origincar_base) StdoutLine: {'line': b'[ 73%] Built target origincar_base__rosidl_typesupport_fastrtps_c\n'}
+[27.810007] (-) TimerEvent: {}
+[27.836035] (origincar_base) StdoutLine: {'line': b'[ 73%] Built target origincar_base\n'}
+[27.911744] (-) TimerEvent: {}
+[27.940738] (origincar_base) StdoutLine: {'line': b'[ 76%] Built target origincar_base__py\n'}
+[28.012209] (-) TimerEvent: {}
+[28.078710] (origincar_base) StdoutLine: {'line': b'[ 82%] Built target origincar_base__python\n'}
+[28.113460] (-) TimerEvent: {}
+[28.220963] (-) TimerEvent: {}
+[28.224788] (origincar_base) StdoutLine: {'line': b'[ 88%] Built target origincar_base__rosidl_typesupport_c__pyext\n'}
+[28.229796] (origincar_base) StdoutLine: {'line': b'[ 94%] Built target origincar_base__rosidl_typesupport_introspection_c__pyext\n'}
+[28.258081] (origincar_base) StdoutLine: {'line': b'[100%] Built target origincar_base__rosidl_typesupport_fastrtps_c__pyext\n'}
+[28.321763] (-) TimerEvent: {}
+[28.424837] (-) TimerEvent: {}
+[28.528559] (-) TimerEvent: {}
+[28.631116] (-) TimerEvent: {}
+[28.651829] (origincar_bringup) JobEnded: {'identifier': 'origincar_bringup', 'rc': 0}
+[28.668338] (tf2_tools) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../../build/tf2_tools', 'build', '--build-base', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/tf2_tools/build', 'install', '--record', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/tf2_tools/install.log', '--single-version-externally-managed'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/tf2_tools', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.3.14 64747 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/root/dev_ws/Horizen-SmartCar-DGDZ/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLCON_PREFIX_PATH': '/opt/tros', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/tros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/tf2_tools', 'SSH_CONNECTION': '192.168.3.14 64747 192.168.3.9 22', 'PYTHONPATH': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/tf2_tools/prefix_override:/root/dev_ws/Horizen-SmartCar-DGDZ/install/tf2_tools/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'ROS_WORKSPACE': '/dev_ws/Horizen-SmartCar-DGDZ', 'CMAKE_PREFIX_PATH': '/opt/tros'}, 'shell': False}
+[28.685537] (origincar_base) CommandEnded: {'returncode': 0}
+[28.731448] (-) TimerEvent: {}
+[28.832855] (-) TimerEvent: {}
+[28.917696] (origincar_base) JobProgress: {'identifier': 'origincar_base', 'progress': 'install'}
+[28.920284] (origincar_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base'], 'cwd': '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.3.14 64747 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib:/opt/tros/opt/yaml_cpp_vendor/lib:/opt/tros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLCON_PREFIX_PATH', '/opt/tros'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/tros/lib/x86_64-linux-gnu/pkgconfig:/opt/tros/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '6'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/dev_ws/Horizen-SmartCar-DGDZ/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs:/opt/tros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base'), ('SSH_CONNECTION', '192.168.3.14 64747 192.168.3.9 22'), ('PYTHONPATH', '/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/lib/python3.8/site-packages:/opt/tros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('ROS_WORKSPACE', '/dev_ws/Horizen-SmartCar-DGDZ'), ('CMAKE_PREFIX_PATH', '/root/dev_ws/Horizen-SmartCar-DGDZ/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs:/opt/tros:/opt/ros/foxy')]), 'shell': False}
+[28.933137] (-) TimerEvent: {}
+[28.980146] (origincar_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.981800] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/ament_index/resource_index/rosidl_interfaces/origincar_base\n'}
+[28.983560] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base\n'}
+[28.984543] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg\n'}
+[28.985662] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/rosidl_generator_c__visibility_control.h\n'}
+[28.987243] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/position.h\n'}
+[28.988403] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail\n'}
+[28.989287] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__type_support.h\n'}
+[28.990843] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__struct.h\n'}
+[28.991989] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__functions.c\n'}
+[28.992937] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__functions.h\n'}
+[28.994453] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/environment/library_path.sh\n'}
+[28.995636] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/environment/library_path.dsv\n'}
+[28.996604] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/liborigincar_base__rosidl_generator_c.so\n'}
+[28.997533] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base\n'}
+[28.998624] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg\n'}
+[29.000330] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[29.001687] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail\n'}
+[29.002833] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_fastrtps_c.h\n'}
+[29.003880] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_fastrtps_c.so\n'}
+[29.004732] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base\n'}
+[29.005734] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg\n'}
+[29.007147] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[29.008129] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail\n'}
+[29.009020] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[29.009906] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/dds_fastrtps\n'}
+[29.010806] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_fastrtps_cpp.so\n'}
+[29.011878] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base\n'}
+[29.012881] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg\n'}
+[29.013821] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[29.014836] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail\n'}
+[29.015938] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__type_support.c\n'}
+[29.017027] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_introspection_c.h\n'}
+[29.018102] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_introspection_c.so\n'}
+[29.019201] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_c.so\n'}
+[29.020208] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base\n'}
+[29.021195] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg\n'}
+[29.022178] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[29.023740] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail\n'}
+[29.024730] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__type_support.hpp\n'}
+[29.025728] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__struct.hpp\n'}
+[29.026753] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__traits.hpp\n'}
+[29.027855] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__builder.hpp\n'}
+[29.028741] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/position.hpp\n'}
+[29.029688] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base\n'}
+[29.030702] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg\n'}
+[29.031720] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail\n'}
+[29.032562] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[29.033337] (-) TimerEvent: {}
+[29.034136] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/include/origincar_base/msg/detail/position__type_support.cpp\n'}
+[29.035489] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_introspection_cpp.so\n'}
+[29.036421] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_cpp.so\n'}
+[29.037327] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/environment/pythonpath.sh\n'}
+[29.038266] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/environment/pythonpath.dsv\n'}
+[29.039150] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/python3.8/site-packages/origincar_base/__init__.py\n'}
+[29.133586] (-) TimerEvent: {}
+[29.234700] (-) TimerEvent: {}
+[29.272015] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg\n'}
+[29.273245] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg/__init__.py\n'}
+[29.274056] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg/_position.py\n'}
+[29.275152] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg/_position_s.c\n'}
+[29.276061] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[29.278166] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[29.281587] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[29.284133] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/liborigincar_base__python.so\n'}
+[29.285353] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/msg/Position.idl\n'}
+[29.286680] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/msg/Position.msg\n'}
+[29.287912] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/origincar_base/cmd_vel_to_ackermann_drive.py\n'}
+[29.288810] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/lib/origincar_base/origincar_base_node\n'}
+[29.290453] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/launch\n'}
+[29.291917] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/launch/__pycache__\n'}
+[29.293417] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/launch/__pycache__/testtwo.launch.cpython-38.pyc\n'}
+[29.294763] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/launch/ekf.launch.py\n'}
+[29.295934] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/launch/base_serial.launch.py\n'}
+[29.297059] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/launch/origincar_bringup.launch.py\n'}
+[29.298246] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/launch/robot_mode_description.launch.py\n'}
+[29.299422] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/config\n'}
+[29.300489] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/config/imu.yaml\n'}
+[29.301740] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/config/ekf.yaml\n'}
+[29.302830] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/ament_index/resource_index/package_run_dependencies/origincar_base\n'}
+[29.304078] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/ament_index/resource_index/parent_prefix_path/origincar_base\n'}
+[29.305162] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/environment/ament_prefix_path.sh\n'}
+[29.306606] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/environment/ament_prefix_path.dsv\n'}
+[29.308087] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/environment/path.sh\n'}
+[29.309621] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/environment/path.dsv\n'}
+[29.310786] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/local_setup.bash\n'}
+[29.311844] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/local_setup.sh\n'}
+[29.313170] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/local_setup.zsh\n'}
+[29.314028] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/local_setup.dsv\n'}
+[29.314998] (origincar_base) StdoutLine: {'line': b'-- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/package.dsv\n'}
+[29.315860] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/ament_index/resource_index/packages/origincar_base\n'}
+[29.316699] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_generator_cExport.cmake\n'}
+[29.317700] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_generator_cExport-noconfig.cmake\n'}
+[29.319233] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cExport.cmake\n'}
+[29.321694] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[29.324418] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cExport.cmake\n'}
+[29.325256] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[29.326078] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_generator_cppExport.cmake\n'}
+[29.326851] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[29.327802] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[29.328604] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cppExport.cmake\n'}
+[29.329728] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[29.330833] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/rosidl_cmake-extras.cmake\n'}
+[29.331849] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[29.332693] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[29.333570] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[29.334490] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[29.335354] (-) TimerEvent: {}
+[29.336119] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[29.337365] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[29.338303] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/origincar_baseConfig.cmake\n'}
+[29.339214] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/cmake/origincar_baseConfig-version.cmake\n'}
+[29.340137] (origincar_base) StdoutLine: {'line': b'-- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base/share/origincar_base/package.xml\n'}
+[29.340986] (origincar_base) CommandEnded: {'returncode': 0}
+[29.435726] (-) TimerEvent: {}
+[29.536874] (-) TimerEvent: {}
+[29.641000] (-) TimerEvent: {}
+[29.743505] (-) TimerEvent: {}
+[29.846391] (-) TimerEvent: {}
+[29.948944] (-) TimerEvent: {}
+[30.058005] (-) TimerEvent: {}
+[30.163562] (-) TimerEvent: {}
+[30.265917] (-) TimerEvent: {}
+[30.368479] (-) TimerEvent: {}
+[30.400990] (tf2_tools) StdoutLine: {'line': b'running egg_info\n'}
+[30.405045] (tf2_tools) StdoutLine: {'line': b'writing ../../../../build/tf2_tools/tf2_tools.egg-info/PKG-INFO\n'}
+[30.406572] (tf2_tools) StdoutLine: {'line': b'writing dependency_links to ../../../../build/tf2_tools/tf2_tools.egg-info/dependency_links.txt\n'}
+[30.408564] (tf2_tools) StdoutLine: {'line': b'writing entry points to ../../../../build/tf2_tools/tf2_tools.egg-info/entry_points.txt\n'}
+[30.415627] (tf2_tools) StdoutLine: {'line': b'writing requirements to ../../../../build/tf2_tools/tf2_tools.egg-info/requires.txt\n'}
+[30.420526] (tf2_tools) StdoutLine: {'line': b'writing top-level names to ../../../../build/tf2_tools/tf2_tools.egg-info/top_level.txt\n'}
+[30.468714] (-) TimerEvent: {}
+[30.571235] (-) TimerEvent: {}
+[30.672752] (-) TimerEvent: {}
+[30.722204] (tf2_tools) StdoutLine: {'line': b"reading manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'\n"}
+[30.728992] (tf2_tools) StdoutLine: {'line': b"writing manifest file '../../../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'\n"}
+[30.732877] (tf2_tools) StdoutLine: {'line': b'running build\n'}
+[30.736331] (tf2_tools) StdoutLine: {'line': b'running build_py\n'}
+[30.741112] (tf2_tools) StdoutLine: {'line': b'running install\n'}
+[30.743586] (tf2_tools) StdoutLine: {'line': b'running install_lib\n'}
+[30.746955] (tf2_tools) StdoutLine: {'line': b'running install_data\n'}
+[30.752314] (tf2_tools) StdoutLine: {'line': b'running install_egg_info\n'}
+[30.762659] (tf2_tools) StdoutLine: {'line': b"removing '/root/dev_ws/Horizen-SmartCar-DGDZ/install/tf2_tools/lib/python3.8/site-packages/tf2_tools-0.17.1-py3.8.egg-info' (and everything under it)\n"}
+[30.765493] (tf2_tools) StdoutLine: {'line': b'Copying ../../../../build/tf2_tools/tf2_tools.egg-info to /root/dev_ws/Horizen-SmartCar-DGDZ/install/tf2_tools/lib/python3.8/site-packages/tf2_tools-0.17.1-py3.8.egg-info\n'}
+[30.774376] (tf2_tools) StdoutLine: {'line': b'running install_scripts\n'}
+[30.778106] (-) TimerEvent: {}
+[30.880233] (-) TimerEvent: {}
+[30.897930] (tf2_tools) StdoutLine: {'line': b'Installing view_frames script to /root/dev_ws/Horizen-SmartCar-DGDZ/install/tf2_tools/lib/tf2_tools\n'}
+[30.901747] (tf2_tools) StdoutLine: {'line': b"writing list of installed files to '/root/dev_ws/Horizen-SmartCar-DGDZ/build/tf2_tools/install.log'\n"}
+[30.983530] (-) TimerEvent: {}
+[31.084683] (-) TimerEvent: {}
+[31.160648] (tf2_tools) CommandEnded: {'returncode': 0}
+[31.184900] (-) TimerEvent: {}
+[31.288459] (-) TimerEvent: {}
+[31.390602] (-) TimerEvent: {}
+[31.493527] (-) TimerEvent: {}
+[31.599481] (-) TimerEvent: {}
+[31.702142] (-) TimerEvent: {}
+[31.805397] (-) TimerEvent: {}
+[31.910049] (-) TimerEvent: {}
+[32.012818] (-) TimerEvent: {}
+[32.115451] (-) TimerEvent: {}
+[32.183170] (tf2_tools) JobEnded: {'identifier': 'tf2_tools', 'rc': 0}
+[32.216057] (-) TimerEvent: {}
+[32.318790] (-) TimerEvent: {}
+[32.422643] (-) TimerEvent: {}
+[32.527959] (-) TimerEvent: {}
+[32.630630] (-) TimerEvent: {}
+[32.735893] (-) TimerEvent: {}
+[32.838346] (-) TimerEvent: {}
+[32.941517] (-) TimerEvent: {}
+[33.043460] (-) TimerEvent: {}
+[33.146009] (-) TimerEvent: {}
+[33.251592] (-) TimerEvent: {}
+[33.353416] (-) TimerEvent: {}
+[33.456262] (-) TimerEvent: {}
+[33.561300] (-) TimerEvent: {}
+[33.670113] (-) TimerEvent: {}
+[33.771835] (-) TimerEvent: {}
+[33.875116] (-) TimerEvent: {}
+[33.963059] (origincar_base) JobEnded: {'identifier': 'origincar_base', 'rc': 0}
+[33.968199] (-) EventReactorShutdown: {}

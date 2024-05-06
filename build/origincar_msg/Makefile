@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/dev_ws/src/origincar/origincar_msg
+CMAKE_SOURCE_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_msg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/dev_ws/build/origincar_msg
+CMAKE_BINARY_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/build/origincar_msg/CMakeFiles /root/dev_ws/build/origincar_msg/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg/CMakeFiles /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/build/origincar_msg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

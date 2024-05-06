@@ -1,10 +1,10 @@
 {
   "package_name": "ackermann_msgs",
-  "output_dir": "/root/dev_ws/build/ackermann_msgs/rosidl_typesupport_fastrtps_c/ackermann_msgs",
+  "output_dir": "/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs/rosidl_typesupport_fastrtps_c/ackermann_msgs",
   "template_dir": "/opt/tros/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/root/dev_ws/build/ackermann_msgs/rosidl_adapter/ackermann_msgs:msg/AckermannDrive.idl",
-    "/root/dev_ws/build/ackermann_msgs/rosidl_adapter/ackermann_msgs:msg/AckermannDriveStamped.idl"
+    "/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs/rosidl_adapter/ackermann_msgs:msg/AckermannDrive.idl",
+    "/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs/rosidl_adapter/ackermann_msgs:msg/AckermannDriveStamped.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/tros/share/std_msgs/msg/Bool.idl",
@@ -49,8 +49,8 @@
     "/opt/tros/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
     "/opt/tros/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/tros/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
-    "/root/dev_ws/build/ackermann_msgs/rosidl_adapter/ackermann_msgs/msg/AckermannDrive.idl",
-    "/root/dev_ws/build/ackermann_msgs/rosidl_adapter/ackermann_msgs/msg/AckermannDriveStamped.idl",
+    "/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs/rosidl_adapter/ackermann_msgs/msg/AckermannDrive.idl",
+    "/root/dev_ws/Horizen-SmartCar-DGDZ/build/ackermann_msgs/rosidl_adapter/ackermann_msgs/msg/AckermannDriveStamped.idl",
     "/opt/tros/share/std_msgs/msg/Bool.idl",
     "/opt/tros/share/std_msgs/msg/Byte.idl",
     "/opt/tros/share/std_msgs/msg/ByteMultiArray.idl",

@@ -1,0 +1,36 @@
+[10.588s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/test_view': PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/prefix_override:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/test_view/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_view build --build-base /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/build install --record /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/install.log --install-scripts $base/lib/test_view --single-version-externally-managed
+[12.919s] running egg_info
+[12.923s] creating ../build/test_view/test_view.egg-info
+[12.925s] writing ../build/test_view/test_view.egg-info/PKG-INFO
+[12.928s] writing dependency_links to ../build/test_view/test_view.egg-info/dependency_links.txt
+[12.929s] writing entry points to ../build/test_view/test_view.egg-info/entry_points.txt
+[12.931s] writing requirements to ../build/test_view/test_view.egg-info/requires.txt
+[12.932s] writing top-level names to ../build/test_view/test_view.egg-info/top_level.txt
+[12.943s] writing manifest file '../build/test_view/test_view.egg-info/SOURCES.txt'
+[13.290s] reading manifest file '../build/test_view/test_view.egg-info/SOURCES.txt'
+[13.298s] writing manifest file '../build/test_view/test_view.egg-info/SOURCES.txt'
+[13.300s] running build
+[13.301s] running build_py
+[13.303s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/build
+[13.304s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/build/lib
+[13.310s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/build/lib/test_view
+[13.311s] copying test_view/image_send.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/build/lib/test_view
+[13.312s] copying test_view/__init__.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/build/lib/test_view
+[13.313s] copying test_view/view.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/build/lib/test_view
+[13.314s] running install
+[13.317s] running install_lib
+[13.325s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/test_view/lib/python3.8/site-packages/test_view
+[13.326s] copying /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/build/lib/test_view/image_send.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/test_view/lib/python3.8/site-packages/test_view
+[13.328s] copying /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/build/lib/test_view/__init__.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/test_view/lib/python3.8/site-packages/test_view
+[13.329s] copying /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/build/lib/test_view/view.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/test_view/lib/python3.8/site-packages/test_view
+[13.334s] byte-compiling /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/test_view/lib/python3.8/site-packages/test_view/image_send.py to image_send.cpython-38.pyc
+[13.347s] byte-compiling /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/test_view/lib/python3.8/site-packages/test_view/__init__.py to __init__.cpython-38.pyc
+[13.349s] byte-compiling /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/test_view/lib/python3.8/site-packages/test_view/view.py to view.cpython-38.pyc
+[13.352s] running install_data
+[13.357s] running install_egg_info
+[13.370s] Copying ../build/test_view/test_view.egg-info to /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/test_view/lib/python3.8/site-packages/test_view-0.0.0-py3.8.egg-info
+[13.380s] running install_scripts
+[13.529s] Installing image_send script to /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/test_view/lib/test_view
+[13.531s] Installing view script to /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/test_view/lib/test_view
+[13.534s] writing list of installed files to '/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/install.log'
+[13.802s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/test_view' returned '0': PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/prefix_override:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/test_view/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_view build --build-base /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/build install --record /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/test_view/install.log --install-scripts $base/lib/test_view --single-version-externally-managed

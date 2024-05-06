@@ -1,0 +1,3 @@
+[console_scripts]
+my_node = my_package.topic_echo:main
+

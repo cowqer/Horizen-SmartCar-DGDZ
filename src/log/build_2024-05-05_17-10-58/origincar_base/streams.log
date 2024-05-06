@@ -1,0 +1,270 @@
+[1.343s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/origincar_base': AMENT_PREFIX_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs:/opt/tros:/opt/ros/foxy LD_LIBRARY_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base
+[1.659s] -- The C compiler identification is GNU 9.3.0
+[1.986s] -- The CXX compiler identification is GNU 9.3.0
+[2.014s] -- Check for working C compiler: /usr/bin/cc
+[2.379s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.384s] -- Detecting C compiler ABI info
+[2.748s] -- Detecting C compiler ABI info - done
+[2.834s] -- Detecting C compile features
+[2.836s] -- Detecting C compile features - done
+[2.852s] -- Check for working CXX compiler: /usr/bin/c++
+[3.272s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.279s] -- Detecting CXX compiler ABI info
+[3.730s] -- Detecting CXX compiler ABI info - done
+[3.830s] -- Detecting CXX compile features
+[3.834s] -- Detecting CXX compile features - done
+[3.850s] -- Found ament_cmake: 0.9.12 (/opt/tros/share/ament_cmake/cmake)
+[4.014s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.015s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.412s] -- Found geometry_msgs: 2.0.5 (/opt/tros/share/geometry_msgs/cmake)
+[5.597s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.641s] -- Found rosidl_adapter: 1.3.1 (/opt/tros/share/rosidl_adapter/cmake)
+[5.873s] -- Found FastRTPS: /opt/tros/include  
+[6.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.035s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/tros/share/tf2_geometry_msgs/cmake)
+[7.103s] -- Found eigen3_cmake_module: 0.1.1 (/opt/tros/share/eigen3_cmake_module/cmake)
+[7.127s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[7.777s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/tros/share/rmw_implementation_cmake/cmake)
+[7.793s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.801s] -- Looking for pthread.h
+[8.188s] -- Looking for pthread.h - found
+[8.189s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.574s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.575s] -- Looking for pthread_create in pthreads
+[8.858s] -- Looking for pthread_create in pthreads - not found
+[8.859s] -- Looking for pthread_create in pthread
+[9.263s] -- Looking for pthread_create in pthread - found
+[9.269s] -- Found Threads: TRUE  
+[13.343s] -- Found nav2_msgs: 0.4.7 (/opt/tros/share/nav2_msgs/cmake)
+[16.058s] -- Found rclpy: 1.0.13 (/opt/tros/share/rclpy/cmake)
+[16.069s] -- Found sensor_msgs: 2.0.5 (/opt/tros/share/sensor_msgs/cmake)
+[16.715s] -- Found std_srvs: 2.0.5 (/opt/tros/share/std_srvs/cmake)
+[16.801s] -- Found ackermann_msgs: 2.0.2 (/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs/share/ackermann_msgs/cmake)
+[17.089s] -- Found origincar_msg: 0.0.0 (/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg/share/origincar_msg/cmake)
+[17.373s] -- Found serial: 1.2.1 (/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/share/serial/cmake)
+[17.412s] -- Found rosidl_default_generators: 1.0.1 (/opt/tros/share/rosidl_default_generators/cmake)
+[17.486s] -- Found origincar_description: 0.0.0 (/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_description/share/origincar_description/cmake)
+[17.500s] -- Found robot_localization: 3.1.2 (/opt/ros/foxy/share/robot_localization/cmake)
+[20.759s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[21.721s] -- Found ament_cmake_ros: 0.9.2 (/opt/tros/share/ament_cmake_ros/cmake)
+[22.121s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.169s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.328s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[22.336s] -- Found python_cmake_module: 0.8.1 (/opt/tros/share/python_cmake_module/cmake)
+[22.516s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[22.517s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[22.518s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[22.518s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[22.665s] -- Found PythonExtra: .so  
+[22.938s] -- Found ament_lint_auto: 0.9.8 (/opt/tros/share/ament_lint_auto/cmake)
+[23.179s] -- Added test 'copyright' to check source files copyright and LICENSE
+[23.190s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[23.203s] -- Configured cppcheck include dirs: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base/include
+[23.203s] -- Configured cppcheck exclude dirs and/or files: 
+[23.211s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[23.212s] -- Configured cpplint exclude dirs and/or files: 
+[23.215s] -- Added test 'flake8' to check Python code syntax and style conventions
+[23.219s] -- Added test 'lint_cmake' to check CMake code style
+[23.223s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[23.231s] -- Added test 'uncrustify' to check C / C++ code style
+[23.232s] -- Configured uncrustify additional arguments: 
+[23.234s] -- Added test 'xmllint' to check XML markup files
+[23.267s] -- Configuring done
+[23.563s] -- Generating done
+[23.591s] -- Build files have been written to: /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/origincar_base
+[23.703s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/origincar_base' returned '0': AMENT_PREFIX_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs:/opt/tros:/opt/ros/foxy LD_LIBRARY_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base
+[23.707s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/origincar_base': AMENT_PREFIX_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs:/opt/tros:/opt/ros/foxy LD_LIBRARY_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/origincar_base -- -j4 -l4
+[23.928s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[23.929s] [35m[1mScanning dependencies of target origincar_base__cpp[0m
+[23.930s] [35m[1mScanning dependencies of target origincar_base_node[0m
+[23.991s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[24.692s] [  8%] [32mBuilding CXX object CMakeFiles/origincar_base_node.dir/src/origincar_base.cpp.o[0m
+[24.707s] [ 11%] [32mBuilding CXX object CMakeFiles/origincar_base_node.dir/src/Quaternion_Solution.cpp.o[0m
+[26.352s] [ 11%] Built target origincar_base__cpp
+[26.372s] [35m[1mScanning dependencies of target origincar_base__rosidl_generator_c[0m
+[26.433s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[26.499s] [ 17%] [32mBuilding C object CMakeFiles/origincar_base__rosidl_generator_c.dir/rosidl_generator_c/origincar_base/msg/detail/position__functions.c.o[0m
+[26.916s] [ 20%] [32m[1mLinking C shared library liborigincar_base__rosidl_generator_c.so[0m
+[27.160s] [ 20%] Built target origincar_base__rosidl_generator_c
+[27.220s] [ 23%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[28.653s] [35m[1mScanning dependencies of target origincar_base__rosidl_typesupport_cpp[0m
+[28.726s] [ 26%] [32mBuilding CXX object CMakeFiles/origincar_base__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/origincar_base/msg/position__type_support.cpp.o[0m
+[29.547s] [35m[1mScanning dependencies of target origincar_base__rosidl_typesupport_introspection_cpp[0m
+[29.647s] [ 29%] [32mBuilding CXX object CMakeFiles/origincar_base__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/origincar_base/msg/detail/position__type_support.cpp.o[0m
+[31.267s] [ 32%] [32m[1mLinking CXX shared library liborigincar_base__rosidl_typesupport_cpp.so[0m
+[31.520s] [ 32%] Built target origincar_base__rosidl_typesupport_cpp
+[31.585s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[32.177s] [ 38%] [32m[1mLinking CXX shared library liborigincar_base__rosidl_typesupport_introspection_cpp.so[0m
+[32.418s] [ 38%] Built target origincar_base__rosidl_typesupport_introspection_cpp
+[32.477s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[34.194s] [35m[1mScanning dependencies of target origincar_base__rosidl_typesupport_fastrtps_cpp[0m
+[34.293s] [ 44%] [32mBuilding CXX object CMakeFiles/origincar_base__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/origincar_base/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[34.682s] [35m[1mScanning dependencies of target origincar_base__rosidl_typesupport_c[0m
+[34.757s] [ 47%] [32mBuilding CXX object CMakeFiles/origincar_base__rosidl_typesupport_c.dir/rosidl_typesupport_c/origincar_base/msg/position__type_support.cpp.o[0m
+[34.950s] [ 50%] [32m[1mLinking CXX shared library liborigincar_base__rosidl_typesupport_c.so[0m
+[35.186s] [ 50%] Built target origincar_base__rosidl_typesupport_c
+[35.248s] [ 52%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[37.808s] [35m[1mScanning dependencies of target origincar_base__rosidl_typesupport_introspection_c[0m
+[37.887s] [ 55%] [32mBuilding C object CMakeFiles/origincar_base__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/origincar_base/msg/detail/position__type_support.c.o[0m
+[38.101s] [ 58%] [32m[1mLinking C shared library liborigincar_base__rosidl_typesupport_introspection_c.so[0m
+[38.193s] [ 61%] [32m[1mLinking CXX shared library liborigincar_base__rosidl_typesupport_fastrtps_cpp.so[0m
+[38.280s] [ 61%] Built target origincar_base__rosidl_typesupport_introspection_c
+[38.820s] [ 61%] Built target origincar_base__rosidl_typesupport_fastrtps_cpp
+[38.876s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[39.620s] [01m[K/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base/src/origincar_base.cpp:[m[K In member function ‘[01m[Kvoid origincar_base::Sign_Switch_Callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[39.621s] [01m[K/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base/src/origincar_base.cpp:106:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksign_switch[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[39.622s]   106 | oid origincar_base::Sign_Switch_Callback([01;35m[Kconst std_msgs::msg::Int32::SharedPtr sign_switch[m[K)
+[39.623s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[39.624s] 
+[41.109s] [35m[1mScanning dependencies of target origincar_base__rosidl_typesupport_fastrtps_c[0m
+[41.183s] [ 67%] [32mBuilding CXX object CMakeFiles/origincar_base__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/origincar_base/msg/detail/position__type_support_c.cpp.o[0m
+[44.031s] [ 70%] [32m[1mLinking CXX shared library liborigincar_base__rosidl_typesupport_fastrtps_c.so[0m
+[44.630s] [ 70%] Built target origincar_base__rosidl_typesupport_fastrtps_c
+[85.864s] [ 73%] [32m[1mLinking CXX executable origincar_base_node[0m
+[92.741s] [ 73%] Built target origincar_base_node
+[92.788s] [35m[1mScanning dependencies of target origincar_base[0m
+[92.837s] [ 73%] Built target origincar_base
+[92.885s] [35m[1mScanning dependencies of target origincar_base__py[0m
+[92.935s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[95.735s] [ 76%] Built target origincar_base__py
+[95.784s] [35m[1mScanning dependencies of target origincar_base__python[0m
+[95.878s] [ 79%] [32mBuilding C object CMakeFiles/origincar_base__python.dir/rosidl_generator_py/origincar_base/msg/_position_s.c.o[0m
+[96.476s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/origincar_base/liborigincar_base__python.so[0m
+[96.713s] [ 82%] Built target origincar_base__python
+[96.775s] [35m[1mScanning dependencies of target origincar_base__rosidl_typesupport_introspection_c__pyext[0m
+[96.776s] [35m[1mScanning dependencies of target origincar_base__rosidl_typesupport_c__pyext[0m
+[96.778s] [35m[1mScanning dependencies of target origincar_base__rosidl_typesupport_fastrtps_c__pyext[0m
+[96.902s] [ 85%] [32mBuilding C object CMakeFiles/origincar_base__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/origincar_base/_origincar_base_s.ep.rosidl_typesupport_c.c.o[0m
+[96.908s] [ 88%] [32mBuilding C object CMakeFiles/origincar_base__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/origincar_base/_origincar_base_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[96.914s] [ 91%] [32mBuilding C object CMakeFiles/origincar_base__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/origincar_base/_origincar_base_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[97.484s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/origincar_base/origincar_base_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[97.485s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/origincar_base/origincar_base_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[97.492s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/origincar_base/origincar_base_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[97.714s] [100%] Built target origincar_base__rosidl_typesupport_c__pyext
+[97.731s] [100%] Built target origincar_base__rosidl_typesupport_introspection_c__pyext
+[97.845s] [100%] Built target origincar_base__rosidl_typesupport_fastrtps_c__pyext
+[97.902s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/origincar_base' returned '0': AMENT_PREFIX_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs:/opt/tros:/opt/ros/foxy LD_LIBRARY_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/origincar_base -- -j4 -l4
+[98.101s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/origincar_base': AMENT_PREFIX_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs:/opt/tros:/opt/ros/foxy LD_LIBRARY_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/origincar_base
+[98.149s] -- Install configuration: ""
+[98.150s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/ament_index/resource_index/rosidl_interfaces/origincar_base
+[98.151s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base
+[98.152s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg
+[98.153s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/rosidl_generator_c__visibility_control.h
+[98.154s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/position.h
+[98.155s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail
+[98.156s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__type_support.h
+[98.157s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__struct.h
+[98.158s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__functions.c
+[98.159s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__functions.h
+[98.160s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/environment/library_path.sh
+[98.161s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/environment/library_path.dsv
+[98.162s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_generator_c.so
+[98.163s] -- Set runtime path of "/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_generator_c.so" to ""
+[98.164s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base
+[98.165s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg
+[98.166s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[98.168s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail
+[98.169s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[98.170s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_fastrtps_c.so
+[98.171s] -- Set runtime path of "/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_fastrtps_c.so" to ""
+[98.173s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base
+[98.173s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg
+[98.174s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[98.175s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail
+[98.176s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[98.177s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/dds_fastrtps
+[98.178s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_fastrtps_cpp.so
+[98.179s] -- Set runtime path of "/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_fastrtps_cpp.so" to ""
+[98.180s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base
+[98.181s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg
+[98.182s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[98.183s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail
+[98.184s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__type_support.c
+[98.185s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_introspection_c.h
+[98.186s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_introspection_c.so
+[98.187s] -- Set runtime path of "/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_introspection_c.so" to ""
+[98.188s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_c.so
+[98.189s] -- Set runtime path of "/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_c.so" to ""
+[98.190s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base
+[98.191s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg
+[98.192s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/rosidl_generator_cpp__visibility_control.hpp
+[98.193s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail
+[98.194s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__type_support.hpp
+[98.194s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__struct.hpp
+[98.195s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__traits.hpp
+[98.196s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__builder.hpp
+[98.197s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/position.hpp
+[98.198s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base
+[98.198s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg
+[98.199s] -- Up-to-date: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail
+[98.200s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[98.201s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/include/origincar_base/msg/detail/position__type_support.cpp
+[98.201s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_introspection_cpp.so
+[98.202s] -- Set runtime path of "/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_introspection_cpp.so" to ""
+[98.203s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_cpp.so
+[98.204s] -- Set runtime path of "/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__rosidl_typesupport_cpp.so" to ""
+[98.205s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/environment/pythonpath.sh
+[98.205s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/environment/pythonpath.dsv
+[98.206s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/python3.8/site-packages/origincar_base/__init__.py
+[98.401s] Compiling '/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/python3.8/site-packages/origincar_base/__init__.py'...
+[98.440s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg
+[98.441s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg/__init__.py
+[98.442s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg/_position.py
+[98.443s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/python3.8/site-packages/origincar_base/msg/_position_s.c
+[98.444s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[98.446s] -- Set runtime path of "/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[98.447s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[98.450s] -- Set runtime path of "/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[98.451s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[98.453s] -- Set runtime path of "/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/python3.8/site-packages/origincar_base/origincar_base_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[98.454s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__python.so
+[98.455s] -- Set runtime path of "/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/liborigincar_base__python.so" to ""
+[98.456s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/msg/Position.idl
+[98.457s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/msg/Position.msg
+[98.458s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/origincar_base/cmd_vel_to_ackermann_drive.py
+[98.460s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/origincar_base/origincar_base_node
+[98.482s] -- Set runtime path of "/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/lib/origincar_base/origincar_base_node" to ""
+[98.483s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/launch
+[98.484s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/launch/__pycache__
+[98.485s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/launch/__pycache__/testtwo.launch.cpython-38.pyc
+[98.486s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/launch/ekf.launch.py
+[98.487s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/launch/base_serial.launch.py
+[98.488s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/launch/origincar_bringup.launch.py
+[98.489s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/launch/robot_mode_description.launch.py
+[98.490s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/config
+[98.491s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/config/imu.yaml
+[98.492s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/config/ekf.yaml
+[98.493s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/ament_index/resource_index/package_run_dependencies/origincar_base
+[98.494s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/ament_index/resource_index/parent_prefix_path/origincar_base
+[98.495s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/environment/ament_prefix_path.sh
+[98.496s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/environment/ament_prefix_path.dsv
+[98.497s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/environment/path.sh
+[98.498s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/environment/path.dsv
+[98.499s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/local_setup.bash
+[98.500s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/local_setup.sh
+[98.501s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/local_setup.zsh
+[98.502s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/local_setup.dsv
+[98.503s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/package.dsv
+[98.504s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/ament_index/resource_index/packages/origincar_base
+[98.505s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_generator_cExport.cmake
+[98.506s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_generator_cExport-noconfig.cmake
+[98.507s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cExport.cmake
+[98.508s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[98.509s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cExport.cmake
+[98.510s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cExport-noconfig.cmake
+[98.511s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_generator_cppExport.cmake
+[98.512s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cppExport.cmake
+[98.513s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[98.515s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cppExport.cmake
+[98.516s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/origincar_base__rosidl_typesupport_cppExport-noconfig.cmake
+[98.517s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/rosidl_cmake-extras.cmake
+[98.518s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[98.519s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_libraries-extras.cmake
+[98.519s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_targets-extras.cmake
+[98.520s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[98.521s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[98.522s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[98.524s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/origincar_baseConfig.cmake
+[98.525s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/cmake/origincar_baseConfig-version.cmake
+[98.525s] -- Installing: /root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_base/share/origincar_base/package.xml
+[98.536s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/build/origincar_base' returned '0': AMENT_PREFIX_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_description:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs:/opt/tros:/opt/ros/foxy LD_LIBRARY_PATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/serial/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg/lib:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/origincar_msg/lib/python3.8/site-packages:/root/dev_ws/Horizen-SmartCar-DGDZ/src/install/ackermann_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/src/build/origincar_base

@@ -1,0 +1,16 @@
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/launch/usb_websocket_display.launch.py
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/ament_index/resource_index/package_run_dependencies/origincar_bringup
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/ament_index/resource_index/parent_prefix_path/origincar_bringup
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.sh
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.dsv
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/environment/path.sh
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/environment/path.dsv
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/local_setup.bash
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/local_setup.sh
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/local_setup.zsh
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/local_setup.dsv
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/package.dsv
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/ament_index/resource_index/packages/origincar_bringup
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig.cmake
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig-version.cmake
+/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/origincar_bringup/share/origincar_bringup/package.xml

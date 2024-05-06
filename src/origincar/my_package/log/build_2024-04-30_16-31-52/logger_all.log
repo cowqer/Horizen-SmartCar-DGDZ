@@ -1,0 +1,93 @@
+[18.618s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[18.619s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7e4ac430>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7e4ac430>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7e0fa670>)
+[19.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[19.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[19.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[19.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[19.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[19.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[19.458s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package'
+[19.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[19.459s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[19.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[19.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[19.460s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[19.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[19.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[19.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[19.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[19.636s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'my_package'
+[19.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[19.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[19.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[19.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[19.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[20.361s] ERROR:colcon.colcon_core.package_augmentation:Exception in package augmentation extension 'ros_ament_python': 'utf-8' codec can't decode byte 0xd5 in position 414: invalid continuation byte
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/package_augmentation/__init__.py", line 97, in augment_packages
+    retval = extension.augment_packages(
+  File "/usr/lib/python3/dist-packages/colcon_core/package_augmentation/__init__.py", line 48, in augment_packages
+    self.augment_package(
+  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 42, in augment_package
+    if is_reading_cfg_sufficient(setup_py):
+  File "/usr/lib/python3/dist-packages/colcon_core/package_identification/python.py", line 70, in is_reading_cfg_sufficient
+    setup_py_content = setup_py.read_text()
+  File "/usr/lib/python3.8/pathlib.py", line 1237, in read_text
+    return f.read()
+  File "/usr/lib/python3.8/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 414: invalid continuation byte
+
+[21.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[21.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[22.046s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install
+[22.414s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 390 installed packages in /opt/tros
+[22.752s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 194 installed packages in /opt/ros/foxy
+[22.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[24.122s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[24.123s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[24.127s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[24.128s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[24.128s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[24.129s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[24.129s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[24.130s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[24.130s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[24.130s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package', 'merge_install': False, 'path': '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package', 'symlink_install': False, 'test_result_base': None}
+[24.435s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[24.773s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[24.776s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package' with build type 'ament_python'
+[24.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[25.225s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[25.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[25.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[25.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[25.553s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.553s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.888s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'my_package' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[26.889s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'my_package' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[26.891s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package'
+[27.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.831s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.832s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with 'Expected ['/usr/bin/python3', 'setup.py', '--help-commands'] to pass:   File "setup.py", line 16
+SyntaxError: Non-UTF-8 code starting with '\xd5' in file setup.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+'
+[28.832s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.170s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[29.171s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.176s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.177s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.182s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[29.182s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/local_setup.ps1'
+[29.497s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/_local_setup_util_ps1.py'
+[29.508s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/setup.ps1'
+[29.820s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/local_setup.sh'
+[29.824s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/_local_setup_util_sh.py'
+[29.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/setup.sh'
+[30.143s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/local_setup.bash'
+[30.147s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/setup.bash'
+[30.468s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/local_setup.zsh'
+[30.473s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/setup.zsh'

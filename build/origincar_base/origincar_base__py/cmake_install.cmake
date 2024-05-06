@@ -1,8 +1,8 @@
-# Install script for directory: /root/dev_ws/build/origincar_base/origincar_base__py
+# Install script for directory: /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base/origincar_base__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/root/dev_ws/install/origincar_base")
+  set(CMAKE_INSTALL_PREFIX "/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_base")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

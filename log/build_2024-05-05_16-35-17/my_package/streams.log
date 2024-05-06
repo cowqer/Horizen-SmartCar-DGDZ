@@ -1,0 +1,34 @@
+[24.788s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package': PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/build/my_package/prefix_override:/root/dev_ws/Horizen-SmartCar-DGDZ/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /root/dev_ws/Horizen-SmartCar-DGDZ/build/my_package/build install --record /root/dev_ws/Horizen-SmartCar-DGDZ/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed
+[29.043s] running egg_info
+[29.052s] creating ../../../build/my_package/my_package.egg-info
+[29.056s] writing ../../../build/my_package/my_package.egg-info/PKG-INFO
+[29.060s] writing dependency_links to ../../../build/my_package/my_package.egg-info/dependency_links.txt
+[29.063s] writing entry points to ../../../build/my_package/my_package.egg-info/entry_points.txt
+[29.071s] writing requirements to ../../../build/my_package/my_package.egg-info/requires.txt
+[29.076s] writing top-level names to ../../../build/my_package/my_package.egg-info/top_level.txt
+[29.091s] writing manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[29.495s] reading manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[29.500s] writing manifest file '../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[29.502s] running build
+[29.504s] running build_py
+[29.505s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/build/my_package/build
+[29.506s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/build/my_package/build/lib
+[29.508s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/build/my_package/build/lib/my_package
+[29.509s] copying my_package/__init__.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/build/my_package/build/lib/my_package
+[29.515s] running install
+[29.516s] running install_lib
+[29.529s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/install/my_package/lib/python3.8/site-packages/my_package
+[29.532s] copying /root/dev_ws/Horizen-SmartCar-DGDZ/build/my_package/build/lib/my_package/__init__.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/install/my_package/lib/python3.8/site-packages/my_package
+[29.545s] byte-compiling /root/dev_ws/Horizen-SmartCar-DGDZ/install/my_package/lib/python3.8/site-packages/my_package/__init__.py to __init__.cpython-38.pyc
+[29.546s] running install_data
+[29.548s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/install/my_package/share/ament_index
+[29.549s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/install/my_package/share/ament_index/resource_index
+[29.555s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/install/my_package/share/ament_index/resource_index/packages
+[29.556s] copying resource/my_package -> /root/dev_ws/Horizen-SmartCar-DGDZ/install/my_package/share/ament_index/resource_index/packages
+[29.558s] copying package.xml -> /root/dev_ws/Horizen-SmartCar-DGDZ/install/my_package/share/my_package
+[29.583s] running install_egg_info
+[29.585s] Copying ../../../build/my_package/my_package.egg-info to /root/dev_ws/Horizen-SmartCar-DGDZ/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[29.586s] running install_scripts
+[29.933s] Installing my_node script to /root/dev_ws/Horizen-SmartCar-DGDZ/install/my_package/lib/my_package
+[29.934s] writing list of installed files to '/root/dev_ws/Horizen-SmartCar-DGDZ/build/my_package/install.log'
+[33.224s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package' returned '0': PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/build/my_package/prefix_override:/root/dev_ws/Horizen-SmartCar-DGDZ/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/my_package build --build-base /root/dev_ws/Horizen-SmartCar-DGDZ/build/my_package/build install --record /root/dev_ws/Horizen-SmartCar-DGDZ/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed

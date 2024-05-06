@@ -1,0 +1,33 @@
+[7.792s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package': PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/prefix_override:/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_package build --build-base /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/build install --record /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed
+[9.388s] running egg_info
+[9.392s] creating build/my_package/my_package.egg-info
+[9.393s] writing build/my_package/my_package.egg-info/PKG-INFO
+[9.395s] writing dependency_links to build/my_package/my_package.egg-info/dependency_links.txt
+[9.396s] writing entry points to build/my_package/my_package.egg-info/entry_points.txt
+[9.398s] writing requirements to build/my_package/my_package.egg-info/requires.txt
+[9.399s] writing top-level names to build/my_package/my_package.egg-info/top_level.txt
+[9.408s] writing manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[9.712s] reading manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[9.718s] writing manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[9.719s] running build
+[9.720s] running build_py
+[9.721s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/build
+[9.722s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/build/lib
+[9.723s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/build/lib/my_package
+[9.724s] copying my_package/__init__.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/build/lib/my_package
+[9.725s] running install
+[9.727s] running install_lib
+[9.733s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/lib/python3.8/site-packages/my_package
+[9.734s] copying /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/build/lib/my_package/__init__.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/lib/python3.8/site-packages/my_package
+[9.737s] byte-compiling /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/lib/python3.8/site-packages/my_package/__init__.py to __init__.cpython-38.pyc
+[9.746s] running install_data
+[9.749s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/share/ament_index
+[9.751s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/share/ament_index/resource_index
+[9.752s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/share/ament_index/resource_index/packages
+[9.753s] copying resource/my_package -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/share/ament_index/resource_index/packages
+[9.754s] copying package.xml -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/share/my_package
+[9.755s] running install_egg_info
+[9.763s] Copying build/my_package/my_package.egg-info to /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[9.768s] running install_scripts
+[9.889s] writing list of installed files to '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/install.log'
+[10.061s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package' returned '0': PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/prefix_override:/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_package build --build-base /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/build install --record /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/my_package/build/my_package/install.log --install-scripts $base/lib/my_package --single-version-externally-managed

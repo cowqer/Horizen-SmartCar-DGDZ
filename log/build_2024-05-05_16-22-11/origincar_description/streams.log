@@ -1,0 +1,47 @@
+[3.854s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description
+[3.962s] -- Found ament_cmake: 0.9.12 (/opt/tros/share/ament_cmake/cmake)
+[4.168s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.165s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.223s] -- Found ament_lint_auto: 0.9.8 (/opt/tros/share/ament_lint_auto/cmake)
+[6.987s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.007s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.012s] -- Added test 'lint_cmake' to check CMake code style
+[7.017s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.027s] -- Added test 'xmllint' to check XML markup files
+[7.044s] -- Configuring done
+[7.073s] -- Generating done
+[7.082s] -- Build files have been written to: /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description
+[7.102s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description
+[7.112s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description --clean-first -- -j4 -l4
+[7.480s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description --clean-first -- -j4 -l4
+[7.663s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description
+[7.736s] -- Install configuration: ""
+[7.742s] -- Execute custom install script
+[7.748s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/launch/display.launch
+[7.813s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/launch/display.launch.py
+[7.873s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/launch/gazebo.launch
+[7.938s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/urdf/origincar.urdf
+[8.000s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/urdf/origincar.xacro
+[8.059s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/rviz/README
+[8.119s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/rviz/display.rviz
+[8.188s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/meshes/base_link.STL
+[8.234s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/meshes/down_left_Link.STL
+[8.289s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/meshes/down_right_Link.STL
+[8.349s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/meshes/up_left_Link.STL
+[8.406s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/meshes/up_right_Link.STL
+[8.460s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/ament_index/resource_index/package_run_dependencies/origincar_description
+[8.530s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/ament_index/resource_index/parent_prefix_path/origincar_description
+[8.605s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/environment/ament_prefix_path.sh
+[8.773s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/environment/ament_prefix_path.dsv
+[8.870s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/environment/path.sh
+[8.941s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/environment/path.dsv
+[9.029s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/local_setup.bash
+[9.093s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/local_setup.sh
+[9.174s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/local_setup.zsh
+[9.234s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/local_setup.dsv
+[9.293s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/package.dsv
+[9.354s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/ament_index/resource_index/packages/origincar_description
+[9.413s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig.cmake
+[9.469s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig-version.cmake
+[9.525s] -- Symlinking: /root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_description/share/origincar_description/package.xml
+[9.590s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_description

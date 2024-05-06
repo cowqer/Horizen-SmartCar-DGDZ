@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall -std=gnu11
 
 C_DEFINES = -DROS_PACKAGE_NAME=\"origincar_base\" -Dorigincar_base__rosidl_generator_c_EXPORTS
 
-C_INCLUDES = -I/root/dev_ws/build/origincar_base/rosidl_generator_c -I/root/dev_ws/src/origincar/origincar_base/include -isystem /opt/tros/include 
+C_INCLUDES = -I/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base/rosidl_generator_c -I/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base/include -isystem /opt/tros/include 
 

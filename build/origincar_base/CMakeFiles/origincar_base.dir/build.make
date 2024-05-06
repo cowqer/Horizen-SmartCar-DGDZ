@@ -43,17 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/dev_ws/src/origincar/origincar_base
+CMAKE_SOURCE_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/dev_ws/build/origincar_base
+CMAKE_BINARY_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base
 
 # Utility rule file for origincar_base.
 
 # Include the progress variables for this target.
 include CMakeFiles/origincar_base.dir/progress.make
 
-CMakeFiles/origincar_base: /root/dev_ws/src/origincar/origincar_base/msg/Position.msg
+CMakeFiles/origincar_base: /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base/msg/Position.msg
 
 
 origincar_base: CMakeFiles/origincar_base
@@ -71,6 +71,6 @@ CMakeFiles/origincar_base.dir/clean:
 .PHONY : CMakeFiles/origincar_base.dir/clean
 
 CMakeFiles/origincar_base.dir/depend:
-	cd /root/dev_ws/build/origincar_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/dev_ws/src/origincar/origincar_base /root/dev_ws/src/origincar/origincar_base /root/dev_ws/build/origincar_base /root/dev_ws/build/origincar_base /root/dev_ws/build/origincar_base/CMakeFiles/origincar_base.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base /root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base/CMakeFiles/origincar_base.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/origincar_base.dir/depend
 

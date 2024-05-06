@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/dev_ws/src/origincar/3rdparty/serial_ros2
+CMAKE_SOURCE_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/dev_ws/build/serial
+CMAKE_BINARY_DIR = /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial
 
 # Utility rule file for serial_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /root/dev_ws/build/serial
 include CMakeFiles/serial_uninstall.dir/progress.make
 
 CMakeFiles/serial_uninstall:
-	/usr/bin/cmake -P /root/dev_ws/build/serial/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 serial_uninstall: CMakeFiles/serial_uninstall
 serial_uninstall: CMakeFiles/serial_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/serial_uninstall.dir/clean:
 .PHONY : CMakeFiles/serial_uninstall.dir/clean
 
 CMakeFiles/serial_uninstall.dir/depend:
-	cd /root/dev_ws/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/dev_ws/src/origincar/3rdparty/serial_ros2 /root/dev_ws/src/origincar/3rdparty/serial_ros2 /root/dev_ws/build/serial /root/dev_ws/build/serial /root/dev_ws/build/serial/CMakeFiles/serial_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2 /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/serial_ros2 /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial /root/dev_ws/Horizen-SmartCar-DGDZ/build/serial/CMakeFiles/serial_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/serial_uninstall.dir/depend
 

@@ -1,10 +1,10 @@
 {
   "package_name": "origincar_msg",
-  "output_dir": "/root/dev_ws/build/origincar_msg/rosidl_typesupport_introspection_c/origincar_msg",
+  "output_dir": "/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg/rosidl_typesupport_introspection_c/origincar_msg",
   "template_dir": "/opt/tros/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/root/dev_ws/build/origincar_msg/rosidl_adapter/origincar_msg:msg/Data.idl",
-    "/root/dev_ws/build/origincar_msg/rosidl_adapter/origincar_msg:msg/Sign.idl"
+    "/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg/rosidl_adapter/origincar_msg:msg/Data.idl",
+    "/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg/rosidl_adapter/origincar_msg:msg/Sign.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/tros/share/std_msgs/msg/Bool.idl",
@@ -49,8 +49,8 @@
     "/opt/tros/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "/opt/tros/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/tros/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
-    "/root/dev_ws/build/origincar_msg/rosidl_adapter/origincar_msg/msg/Data.idl",
-    "/root/dev_ws/build/origincar_msg/rosidl_adapter/origincar_msg/msg/Sign.idl",
+    "/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg/rosidl_adapter/origincar_msg/msg/Data.idl",
+    "/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_msg/rosidl_adapter/origincar_msg/msg/Sign.idl",
     "/opt/tros/share/std_msgs/msg/Bool.idl",
     "/opt/tros/share/std_msgs/msg/Byte.idl",
     "/opt/tros/share/std_msgs/msg/ByteMultiArray.idl",

@@ -1,0 +1,2 @@
+Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/Test_view': /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/test_view -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/install/Test_view
+Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/build/Test_view' returned '1': /usr/bin/cmake /root/dev_ws/Horizen-SmartCar-DGDZ/src/test_view -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/dev_ws/Horizen-SmartCar-DGDZ/install/Test_view

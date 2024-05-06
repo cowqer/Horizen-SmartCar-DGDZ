@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -std=gnu++14
 
 CXX_DEFINES = -DROS_PACKAGE_NAME=\"origincar_base\" -Dorigincar_base__rosidl_typesupport_introspection_cpp_EXPORTS
 
-CXX_INCLUDES = -I/root/dev_ws/build/origincar_base/rosidl_generator_cpp -I/root/dev_ws/src/origincar/origincar_base/include -isystem /opt/tros/include 
+CXX_INCLUDES = -I/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base/rosidl_generator_cpp -I/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base/include -isystem /opt/tros/include 
 

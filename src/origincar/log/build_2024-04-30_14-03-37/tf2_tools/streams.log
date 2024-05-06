@@ -1,0 +1,37 @@
+[10.762s] Invoking command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/tf2_tools': PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/prefix_override:/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf2_tools build --build-base /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/build install --record /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/install.log --single-version-externally-managed
+[12.878s] running egg_info
+[12.888s] creating ../../build/tf2_tools/tf2_tools.egg-info
+[12.889s] writing ../../build/tf2_tools/tf2_tools.egg-info/PKG-INFO
+[12.890s] writing dependency_links to ../../build/tf2_tools/tf2_tools.egg-info/dependency_links.txt
+[12.891s] writing entry points to ../../build/tf2_tools/tf2_tools.egg-info/entry_points.txt
+[12.893s] writing requirements to ../../build/tf2_tools/tf2_tools.egg-info/requires.txt
+[12.896s] writing top-level names to ../../build/tf2_tools/tf2_tools.egg-info/top_level.txt
+[12.928s] writing manifest file '../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[13.277s] reading manifest file '../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[13.286s] writing manifest file '../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[13.288s] running build
+[13.289s] running build_py
+[13.291s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/build
+[13.292s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/build/lib
+[13.293s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/build/lib/tf2_tools
+[13.295s] copying tf2_tools/view_frames.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/build/lib/tf2_tools
+[13.296s] copying tf2_tools/__init__.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/build/lib/tf2_tools
+[13.297s] running install
+[13.299s] running install_lib
+[13.306s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/lib/python3.8/site-packages/tf2_tools
+[13.308s] copying /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/build/lib/tf2_tools/view_frames.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/lib/python3.8/site-packages/tf2_tools
+[13.309s] copying /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/build/lib/tf2_tools/__init__.py -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/lib/python3.8/site-packages/tf2_tools
+[13.312s] byte-compiling /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/lib/python3.8/site-packages/tf2_tools/view_frames.py to view_frames.cpython-38.pyc
+[13.326s] byte-compiling /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/lib/python3.8/site-packages/tf2_tools/__init__.py to __init__.cpython-38.pyc
+[13.328s] running install_data
+[13.332s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/share/ament_index
+[13.334s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/share/ament_index/resource_index
+[13.335s] creating /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/share/ament_index/resource_index/packages
+[13.336s] copying resource/tf2_tools -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/share/ament_index/resource_index/packages
+[13.337s] copying package.xml -> /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/share/tf2_tools
+[13.338s] running install_egg_info
+[13.347s] Copying ../../build/tf2_tools/tf2_tools.egg-info to /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/lib/python3.8/site-packages/tf2_tools-0.17.1-py3.8.egg-info
+[13.354s] running install_scripts
+[13.498s] Installing view_frames script to /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/lib/tf2_tools
+[13.501s] writing list of installed files to '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/install.log'
+[13.700s] Invoked command in '/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/3rdparty/tf2_tools' returned '0': PYTHONPATH=/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/prefix_override:/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/install/tf2_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf2_tools build --build-base /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/build install --record /root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/build/tf2_tools/install.log --single-version-externally-managed

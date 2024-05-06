@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/dev_ws/src/origincar/origincar_base/src/Quaternion_Solution.cpp" "/root/dev_ws/build/origincar_base/CMakeFiles/origincar_base_node.dir/src/Quaternion_Solution.cpp.o"
-  "/root/dev_ws/src/origincar/origincar_base/src/origincar_base.cpp" "/root/dev_ws/build/origincar_base/CMakeFiles/origincar_base_node.dir/src/origincar_base.cpp.o"
+  "/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base/src/Quaternion_Solution.cpp" "/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base/CMakeFiles/origincar_base_node.dir/src/Quaternion_Solution.cpp.o"
+  "/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base/src/origincar_base.cpp" "/root/dev_ws/Horizen-SmartCar-DGDZ/build/origincar_base/CMakeFiles/origincar_base_node.dir/src/origincar_base.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,10 +18,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/root/dev_ws/src/origincar/origincar_base/include"
-  "/root/dev_ws/install/serial/include"
-  "/root/dev_ws/install/origincar_msg/include"
-  "/root/dev_ws/install/ackermann_msgs/include"
+  "/root/dev_ws/Horizen-SmartCar-DGDZ/src/origincar/origincar_base/include"
+  "/root/dev_ws/Horizen-SmartCar-DGDZ/install/serial/include"
+  "/root/dev_ws/Horizen-SmartCar-DGDZ/install/origincar_msg/include"
+  "/root/dev_ws/Horizen-SmartCar-DGDZ/install/ackermann_msgs/include"
   "/opt/tros/include"
   "/opt/ros/foxy/include"
   "/usr/include/eigen3"
